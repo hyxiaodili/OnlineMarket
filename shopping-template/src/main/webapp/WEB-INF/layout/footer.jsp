@@ -1,3 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"   pageEncoding="UTF-8"%>
         <div id="bottom" align="center">
             <div id="helpIntro" align="left">
                 <dl class="helpLeft">

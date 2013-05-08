@@ -3,10 +3,10 @@
 
 	<!--Daily rolling file appender -->
 	<appender name="FILE-ALL" class="ch.qos.logback.core.rolling.RollingFileAppender">
-     	<File>/log/isaport-fucker-1.0.log</File>
+     	<File>/log/OnlineMarket-1.0.log</File>
      	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
      		<!-- daily rollover -->
-     		<fileNamePattern>/log/isaport-fucker-1.0.%d{yyyy-MM-dd}.log</fileNamePattern>
+     		<fileNamePattern>/log/OnlineMarket-1.0.%d{yyyy-MM-dd}.log</fileNamePattern>
      		<!-- keep 30 days' worth of history -->
 				<maxHistory>30</maxHistory>
      	</rollingPolicy>
@@ -21,10 +21,10 @@
 		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
 			<level>ERROR</level>
 		</filter> 	
-     	<File>/log/isaport-fucker-error-1.0.log</File>
+     	<File>/log/OnlineMarket-error-1.0.log</File>
      	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
      		<!-- daily rollover -->
-     		<fileNamePattern>/log/isaport-fucker-error-1.0.%d{yyyy-MM-dd}.log</fileNamePattern>
+     		<fileNamePattern>/log/OnlineMarket-error-1.0.%d{yyyy-MM-dd}.log</fileNamePattern>
      		<!-- keep 30 days' worth of history -->
 				<maxHistory>30</maxHistory>
      	</rollingPolicy>

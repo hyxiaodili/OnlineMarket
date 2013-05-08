@@ -3,8 +3,8 @@
 <!--  This is the Official Version.  If you must, copy it -->
 <!--  and propagate all changed to all versions.-->
 <!--  DO NOT MODIFY THIS FILE UNLESS YOU KNOW WHAT YOU ARE DOING!! -->
-<%-- <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%> --%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
 <html>
