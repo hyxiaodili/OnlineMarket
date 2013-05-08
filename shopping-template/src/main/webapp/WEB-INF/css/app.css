@@ -1,0 +1,26 @@
+#floatad-winpop{width:356px;height:0px;position:absolute;right:0;bottom:0;margin:0;padding:1px;overflow:hidden;display:none;}
+#floatad-winpop .title{width:100%;height:22px;line-height:20px;background:#a10000;font-weight:bold;text-align:center;font-size:12px;}
+#floatad-winpop .con{width:100%;height:90px;line-height:80px;font-weight:bold;font-size:12px;color:#FF0000;text-decoration:underline;text-align:center}
+ .floatad-close{position:absolute;right:12px;top:8px;color:#FFF;cursor:pointer}
+.floatad-blank43{clear:both;display:block;overflow:hidden;height:43px;}
+.floatad-setTabMenu strong{width:80px;height:65px;display:block;position:absolute;left:0;top:-43px;}
+.floatad-setTabMenu strong a{width:80px;height:65px;display:block;}
+.floatad-windowBox{padding:0;margin:0;width:352px;height:290px;background:url(../images/windowBg.gif) no-repeat;font-size:12px;font-family:"ËÎÌו";}
+.floatad-setTab{padding:0;margin:0;width:337px;margin:0 auto;}
+.floatad-setTabMenu{padding:0;margin:0;width:337px;height:23px;line-height:23px;border-bottom:1px solid #ddd;position:relative;}
+.floatad-setTabMenu ul{padding:0;margin:0;float:right;display:inline;position:absolute;right:0;top:0;}
+.floatad-setTabMenu li{padding:0;margin:0;width:64px;height:23px;margin-left:1px;float:left;display:inline;cursor:pointer;}
+#style1{background:url(../images/today.gif) no-repeat;}
+#style2{background:url(../images/men.gif) no-repeat;}
+#style3{background:url(../images/women.gif) no-repeat;}
+#style4{background:url(../images/sports.gif) no-repeat;}
+.floatad-setTabMenu li.floatad-hover#style1{height:24px;background:url(../images/todayHover.gif) no-repeat;}
+.floatad-setTabMenu li.floatad-hover#style2{height:24px;background:url(../images/menHover.gif) no-repeat;}
+.floatad-setTabMenu li.floatad-hover#style3{height:24px;background:url(../images/womenHover.gif) no-repeat;}
+.floatad-setTabMenu li.floatad-hover#style4{height:24px;background:url(../images/sportsHover.gif) no-repeat;}
+.floatad-setTabCon img{border:none;}
+#con_style_1{width:335px;clear:both;border:1px solid #ddd;border-top:none;text-align:center;}
+#con_style_2 div img,#con_style_3 div img,#con_style_4 div img{padding:3px;border:1px solid #dedede;border-top:0;}
+.floatad-setTabCon ul{padding:0px;margin:0px;margin-left:2px;}
+.floatad-setTabCon li{margin-right:2px;margin-top:6px;float:left;display:inline;}
+div.floatad-setTabCon li img{width:78px;height:31px;border:2px solid #dedede;}

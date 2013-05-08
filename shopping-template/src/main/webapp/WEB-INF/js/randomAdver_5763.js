@@ -1,0 +1,11 @@
+﻿imglist=new RandomimgPlayer("class='track' name='h-k-01'");
+imglist.Add("http://images.vancl.com/Others/2010/3/15/but_home_kids_l_100315-2.jpg",0,"http://www.vancl.com/CategoryList-1742-1--1/.html");
+imglist.Add("http://images.vancl.com/Others/2010/4/13/but_home_kids_l_100413.jpg",0,"http://www.vancl.com/SelfSuitInfo/CS0000227.html");
+imglist.Add("http://images.vancl.com/Others/2010/4/19/but_home_4_100419.jpg",0,"http://www.vancl.com/zhuanti/tzwy_20100419.htm");
+imglist.Add("http://images.vancl.com/Others/2010/4/20/but_home_k_100420.jpg",0,"http://www.vancl.com/zhuanti/tzwy_20100419.htm");
+imglist.Add("http://images.vancl.com/Others/2010/6/8/but_home_4_100508.jpg",0,"http://www.vancl.com/zhuanti/tzpolo_20100505.htm");
+imglist.Add("http://images.vancl.com/Others/2010/6/12/but_home_kids_l_100611.jpg",0,"http://www.vancl.com/zhuanti/tzlyq_20100612.htm");
+imglist.Add("http://images.vancl.com/Others/2010/7/16/but_home_kids_l_100630-9.jpg",0,"http://www.vancl.com/CategoryList-2316-1--1/QuanMianSuSeDuanXiuPOLOShan.html");
+imglist.Add("http://images.vancl.com/Others/2010/9/3/xd10090301.jpg",0,"http://www.vancl.com/zhuanti/children/tzwy_20100903.htm");
+imglist.Add("http://images.vancl.com/Others/2011/1/27/advchild_left_110127.jpg",100,"http://www.vancl.com/zhuanti/children/tzwy_20101206.htm");
+$("#randomadver_child_1").html(imglist.GetFirstImgHTML("class='track' name='h-k-01'"));

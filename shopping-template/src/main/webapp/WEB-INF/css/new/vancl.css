@@ -1,0 +1,379 @@
+﻿/*default*/
+*
+{  
+	word-wrap: break-word;
+	margin: 0;
+	list-style: none;
+	
+}
+body
+{
+	margin: 0;
+	font: 12px "宋体" ,sans-serif;
+	background: #FFF;
+	color: #444;
+
+}
+/*
+input, select, textarea, button, img
+{
+	font: 12px "宋体" ,sans-serif;
+	vertical-align: middle;
+}*/
+img, fieldset
+{
+	border: 0;
+}
+table
+{
+	border-collapse: collapse;
+}
+th
+{
+	font-weight: 400;
+}
+em
+{
+	font-style: normal;
+}
+
+.ajax
+{
+	/*position:fixed; 	-index:8; 	top:50%; 	left:50%; 	_position:absolute; 	_top:expression(eval(documentElement.scrollTop+(documentElement.clientHeight-this.clientHeight)/2));*/
+}
+
+/*layout*/
+#wrap
+{
+		width: 980px;
+	margin: 3px auto 0;
+}
+#main, #sidebar, #sidebar2
+{
+	float: left;
+	width: 189px;
+	margin: 0px 0px 0px 0px;
+}
+
+#main
+{
+	width: 545px;
+	margin: 9px 19px;
+	line-height:17px;
+}
+.column2 #main
+{
+	width: 772px;
+	margin-right: 0;
+}
+.column3b #main
+{
+	width: 590px;
+	margin-right: 10px;
+}
+.column3a #sidebar2
+{
+	width: 225px;
+}
+.alert
+{
+	color: #970013;
+}
+/*  xc
+#footer
+{
+	clear: both;
+	zoom: 1;
+	text-align: center;
+	border-top: 0px solid #7B797B;
+}
+*/
+/*header*/
+h1{
+	float:left;
+	width:550px;
+	margin-top:15px;_margin-top:25px;
+}
+h1 a{
+	display:block;
+	background:url(http://images.vancl.com/logo/logo.png) no-repeat;
+	width:317px;
+	height:31px;
+	text-indent:-999em;
+}
+#topnav{
+	float:left;
+	width:250px;
+	background:url(http://images.vancl.com/shopping/dot_y333.png) repeat-y right;
+	height:35px;
+	padding-right:6px;
+	padding-top:12px;
+	text-align:right;
+	margin-bottom:10px;
+}
+
+#topnav img
+{
+	margin-right:4px;
+	margin-bottom:10px;
+	vertical-align:top;
+}
+#topnav li{
+	display:inline;
+
+	white-space:nowrap;
+}
+#tel400{
+	float:right;
+	text-align:right;
+	padding-top:3px;
+	padding-left:4px;
+	height:54px;
+}
+#tel400 dd{
+	font:29px Arial;
+}
+#mainnav{
+	clear:both;
+	height:32px;
+	padding:0px;
+	background:url(http://images.vancl.com/menu/menuBg.jpg) repeat;
+}
+#mainnav li
+{
+	width:69px;
+	height:32px;
+	float:left;
+	border-right:2px solid #FFF;
+	font-family:黑体;
+	font-size:14px;
+	font-weight:500;
+}
+#mainnav .nav1{
+
+	padding-left:0px;
+}
+#mainnav .nav1 a{
+
+	background:url(http://images.vancl.com/menu/nw_navi_h__r2_c2.png) no-repeat center;
+}
+#mainnav .nav1 a:hover,#mainnav .nav1 .current{
+
+	background:url(http://images.vancl.com/menu/nw_navi_b__r2_c22_r2_c2.jpg) no-repeat  center;
+}
+#mainnav .nav175 a{
+	background:url(http://images.vancl.com/menu/nw_navi_h__r2_c4.png) no-repeat center;
+}
+#mainnav .nav175 a:hover,#mainnav .nav175 .current{
+	background:url(http://images.vancl.com/menu/nw_navi_b__r2_c22_r2_c4.jpg) no-repeat  center;
+}
+#mainnav .nav193 a{
+	width:69px;
+	background:url(http://images.vancl.com/menu/nw_navi_h__r2_c6.png) no-repeat center ;
+}
+#mainnav .nav193 a:hover,#mainnav .nav193 .current{
+	background:url(http://images.vancl.com/menu/nw_navi_b__r2_c22_r2_c6.jpg) no-repeat  center ;
+}
+#mainnav .nav199 a{
+	background:url(http://images.vancl.com/menu/nw_navi_h__r2_c8.png) no-repeat center ;
+}
+#mainnav .nav199 a:hover,#mainnav .nav199 .current{
+	background:url(http://images.vancl.com/menu/nw_navi_b__r2_c22_r2_c8.jpg) no-repeat  center;
+}
+#mainnav .nav203 a{
+	background:url(http://images.vancl.com/menu/nw_navi_h__r2_c10.png) no-repeat center;
+}
+#mainnav .nav203 a:hover,#mainnav .nav203 .current{
+	background:url(http://images.vancl.com/menu/nw_navi_b__r2_c22_r2_c10.jpg) no-repeat  center;
+}
+#mainnav .nav292 a{
+		background:url(http://images.vancl.com/menu/shoes_grey.png) no-repeat  center;
+}
+#mainnav .nav292 a:hover,#mainnav .nav292 .current{
+	background:url(http://images.vancl.com/menu/shoes_red.png) no-repeat  center;
+}
+#mainnav .nav209 a
+{
+	width:69px;
+	background:url(http://images.vancl.com/menu/mxs2.png) no-repeat center;
+}
+#mainnav .nav209 a:hover,#mainnav .nav209 .current{
+	background:url(http://images.vancl.com/menu/mxs.png) no-repeat  center;
+}
+#mainnav .nav241 a{
+	background:url(http://images.vancl.com/menu/nw_navi_h__r2_c12.png) no-repeat center;
+}
+#mainnav .nav241 a:hover,#mainnav .nav241 .current{
+	background:url(http://images.vancl.com/menu/nw_navi_b__r2_c22_r2_c12.jpg) no-repeat  center;
+}
+#mainnav .nav244 a{
+		background:url(http://images.vancl.com/menu/nw_navi_h__r2_c14.png) no-repeat  center;
+}
+#mainnav .nav244 a:hover,#mainnav .nav244 .current{
+	background:url(http://images.vancl.com/menu/nw_navi_b__r2_c22_r2_c14.jpg) no-repeat  center;
+}
+#mainnav .nav214 a{
+	width:69px;
+	background:url(http://images.vancl.com/menu/nw_navi_h__r2_c16.png) no-repeat center;
+}
+#mainnav .nav214 a:hover,#mainnav .nav214 .current{
+	background:url(http://images.vancl.com/menu/nw_navi_b__r2_c22_r2_c16.jpg) no-repeat  center;
+}
+#mainnav .nav233 a{
+
+	background:url(http://images.vancl.com/menu/nw_navi_h__r2_c18.png) no-repeat center ;
+}
+#mainnav .nav233 a:hover,#mainnav .nav233 .current{
+
+	background:url(http://images.vancl.com/menu/nw_navi_b__r2_c22_r2_c18.jpg) no-repeat  center ;
+}
+#mainnav .nav232 a{
+
+	background:url(http://images.vancl.com/menu/nw_navi_h__r2_c20.png) no-repeat center ;
+}
+#mainnav .nav232 a:hover,#mainnav .nav232 .current{
+
+	background:url(http://images.vancl.com/menu/nw_navi_b__r2_c22_r2_c20.jpg) no-repeat  center ;
+}
+#mainnav .nav220 a{
+
+	background:url(http://images.vancl.com/menu/nw_navi_h__r2_c22.png) no-repeat center ;
+}
+#mainnav .nav220 a:hover,#mainnav .nav220 .current{
+
+	background:url(http://images.vancl.com/menu/nw_navi_b__r2_c22_r2_c22.jpg) no-repeat  center ;
+}
+#mainnav a{
+	display:block;
+	width:69px;
+	height:32px;
+	text-indent:-999em;
+}
+#mainnav a:link,#mainnav a:visited{
+	color:#d5d5d5;
+	text-decoration:none;
+}
+#mainnav a .current{
+	color:White !important;
+	text-decoration:none;
+}
+#mainnav a:hover,#mainnav .current{
+	color:White !important;
+	text-decoration:none;
+}
+#funcnav
+{
+	float: right;
+	overflow: hidden;
+	margin-top: -27px;
+	width:190px;
+}
+#funcnav li
+{
+	float: left;
+	padding: 0 0 0 0;
+margin-left:-1px;
+border-left:1pxsolid#D6CFCE;
+}
+#funcnav a
+{
+	color: #D6CFCE;
+}
+
+/*footer*/
+#promise,#copyright{
+	padding:18px;
+}
+#promise li{
+	display:inline;
+}
+#footnav{
+	background:url(http://images.vancl.com/shopping/bg_footer.png) no-repeat;
+}
+#footnav li{
+	display:inline;
+	background:url(http://images.vancl.com/shopping/dot_y333.png) repeat-y;
+	padding:0 5px 0 12px;
+}
+#footnav .first{
+	background:none;
+}
+.fontbold
+{
+    font-weight:bold;
+}
+
+#content{
+	border: 1px solid #7D7D7D;
+	margin: 0 auto;
+	width: 200px;
+	background-color:white;display:none;
+	z-index:1002;
+}
+#Container
+{
+		z-index:1002;
+}
+#dis
+{
+		z-index:1002;
+}
+#spanCount
+{
+background:url(http://images.vancl.com/menu/gwc.jpg) no-repeat;
+text-indent:25px;
+height:25px;
+line-height:25px;
+width:160px;
+color:#3C3C3C;
+}
+.redFont
+{
+color:#7F0019;
+}
+.lineFont
+{
+	margin-left:5px;
+	margin-top:5px;
+	display:block;
+	font-weight:bold;
+    line-height:18px;
+}
+/*****************
+table 
+*/
+
+.floatRight
+{
+    float:right;
+    margin-right:5px;
+    margin-top:-5px;
+}
+.floatLeft
+{
+line-height:18px;
+margin-left:5px;
+margin-bottom:5px;
+    float:left;
+    color:#7F0019;
+}
+.STYLE2 td
+{
+	text-align:left;
+}
+.STYLE2 {font-size: 12px; line-height:180%;}
+.STYLE2a {font-size: 12px; line-height:150%;}
+.pic{margin-left:40px;}
+
+#backTop
+{
+	float:right;
+	margin:10px 10px 20px auto;
+}
+#new_tb{width:980px; margin-left:auto; margin-right:auto;}
+#new_tb tr td img{border:1px solid #d9d9d9;}
+#new_tb tr td p img {border:0;}
+#new_tb tr td a:hover img{border:1px solid #a10000;}
+#new_tb tr td span.fontWeight{margin-left:5px;font-weight:bold;color:#a10000;}
+#new_tb .productName{width:170px;height:30px;line-height:16px;margin:10px 0 0 0;text-align:left;overflow:hidden;}
+#new_tb .price{margin:10px 0;}

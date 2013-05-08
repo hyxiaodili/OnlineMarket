@@ -1,0 +1,95 @@
+﻿@charset "utf-8";
+/*  全局样式  */
+html{color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,textarea,p,th,td{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+fieldset,img{border:0;}
+li{list-style:none;}
+em,strong,th,u,i,b{font-style:normal;font-weight:normal;}
+u{text-decoration:none; }
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select {*font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+/*  body  */
+body{font-size:12px;font-family:"宋体";color:#333;}
+a:link,a:visited{color:#333;text-decoration:none;}
+a:hover{color:#a10000;text-decoration:none;}
+/*    调试样式    */
+.fL{float:left;display:inline;}
+.fR{float:right;display:inline;}
+.dN{display:none;}
+.dB{display:block;}
+.aC{text-align:center;}
+.aL{text-align:left;}
+.aR{text-align:right;}
+/*   去除连接线
+a,area {blr:expression(this.onFocus=this.blur()) }   //IE
+a:focus {outline:none;}                              //FF
+*/
+/* <span class="blank+数值"></span> */
+.blank0{clear:both;display:block;font-size:1px;visibility:hidden;height:0;line-height:0;}
+.blank5{clear:both;display:block;font-size:1px;overflow:hidden;height:5px;}
+.blank8{clear:both;display:block;font-size:1px;overflow:hidden;height:8px;}
+.blank10{clear:both;display:block;font-size:1px;overflow:hidden;height:10px;}
+.blank12{clear:both;display:block;font-size:1px;overflow:hidden;height:12px;}
+.blank15{clear:both;display:block;font-size:1px;overflow:hidden;height:15px;}
+.blank20{clear:both;display:block;font-size:1px;overflow:hidden;height:20px;}
+.blank25{clear:both;display:block;font-size:1px;overflow:hidden;height:25px;}
+/*    */
+.hotProductBox{width:980px;margin:0 auto;}
+.hotNavArea{width:980px;height:36px;line-height:36px;font-size:14px;color:#645e5e;background:#eee;}
+.hotNavArea span{margin-left:20px;color:#000;}
+.hotNavArea a:link,.hotNavArea a:visited{padding:0 25px;color:#645e5e;text-decoration:none;font-weight:bold; }
+.hotNavArea a:hover{color:#a10000;text-decoration:none; }
+.kindsHead{height:32px;}
+.allKindArea{width:980px;}
+.kindsHead h2{color:#a10000;font-weight:bold;font-size:14px;line-height:32px;float:left;display:inline; }
+.kindsHead ul{margin-left:25px;float:left;display:inline; }
+.kindsHead li{width:41px;height:19px;line-height:19px;margin:5px 5px 0 0;text-align:center; background:url(http://images.vancl.com/channel/salesrank//kindsBg.jpg) no-repeat;float:left;display:inline;cursor:pointer; }
+.kindsHead li.hover{width:41px;height:19px;line-height:19px;color:#fff;text-align:center; background:url(http://images.vancl.com/channel/salesrank//kindsBgHover.jpg) no-repeat;}
+.kindCon{clear:both;}
+.allKindLeft{width:665px;float:left;display:inline; }
+.allKindRight{width:306px;float:right;display:inline;margin-top:-27px;}
+.productTopLeft{width:665px;float:left;display:inline; }
+.menProduct{width:663px;height:347px;border:1px solid #e2e2e2; }
+.menProduct li{width:132px;float:left;display:inline;text-align:center;}
+.menProduct li a:link img,.menProduct li a:visited img{border:1px solid #fff; }
+.menProduct li a:hover img{border:1px solid #a10000; }
+.menProduct li h2{padding:0 10px;text-align:left;height:28px;overflow:hidden;}
+.Mprice{text-align:left;color:#999;text-indent:10px;}
+.Mprice span{text-decoration:line-through;  }
+.Sprice{margin-top:2px;text-indent:10px;color:#a10000;text-align:left; }
+.topMenu{height:27px;line-height:26px;border-bottom:1px solid #7b0c26;width:306px;}
+.topMenu li{width:151px;height:26px;color:#e87d27;border:1px solid #cdcdcd;border-bottom:0;background:#f3f3f3;  text-align:center; float:left; }
+.topMenu li.hover{height:26px;border:1px solid #953d51;border-bottom:0;color:#fff;background:url(http://images.vancl.com/channel/salesrank//topMenuBg.gif) repeat-x;cursor:pointer; }
+.topCon{height:300px;}
+.topRow{width:304px;height:28px;border:1px solid #ebebeb;border-top:0;overflow:hidden; }
+.topRow li{float:left;display:inline; }
+/*.col1of4{width:28px;height:28px;line-height:28px;color:#fff;text-align:center; background:url(http://images.vancl.com/channel/salesrank//topBg.gif) no-repeat 7px 7px;}ff*/
+li.topBg123{background:url(http://images.vancl.com/channel/salesrank//topBg123.gif) no-repeat 7px 7px;}
+col1of4{background:url(http://images.vancl.com/channel/salesrank//topBg.gif) no-repeat 7px 7px;}
+.col2of4{width:168px;line-height:28px;overflow:hidden;white-space:nowrap;overflow:hidden;}
+.col3of4{width:90px;line-height:28px;color:#a10000;text-align:center; }
+.col3of4 strong{color:#a10000;}
+.col4of4{width:10px;}
+.col4of4 img{margin-top:8px;}
+.topRowHover{width:304px;height:86px;border:1px solid #ebebeb;border-top:0;overflow:hidden;}
+.col1of3Hover,.col2of3Hover,.col3of3Hover{float:left;display:inline; }
+.col1of3Hover{width:28px;height:28px;line-height:28px;color:#fff;text-align:center; background:url(http://images.vancl.com/channel/salesrank//topBg.gif) no-repeat 7px 8px;}
+.col2of3Hover{width:68px;margin:8px 5px 0 0;}
+.col3of3Hover{width:202px;}
+.col3of3Hover h2{margin-top:8px;}
+.MpriceHover{padding-top:8px;*padding-top:10px;_padding-top:8px;color:#999;}
+.MpriceHover em{text-decoration:line-through; }
+.Mprice em{text-decoration:line-through; }
+.SpriceHover{width:202px;padding-top:5px;*padding-top:7px;_padding-top:5px;color:#a10000;position:relative; }
+.SpriceHover img{position:absolute;right:6px;bottom:3px; }
+.pinglun{width:202px;padding-top:2px;*padding-top:4px;_padding-top:2px;position:relative; }
+.pinglun img{position:absolute;right:6px;bottom:3px; }
+.pinglun em{color:#a10000;}
+.col3of4PL{width:90px;line-height:30px;color:#333;text-align:center;}
+.col3of4PL em{color:#a10000;}
+.pinglunArea{text-align:left;text-indent:10px; padding-top:2px;*padding-top:4px;_padding-top:2px;}
+.pinglunArea em{color:#a10000;}
+.pinglunCon{margin-top:3px;color:#999;line-height:16px;}
+.singleLine{ overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}

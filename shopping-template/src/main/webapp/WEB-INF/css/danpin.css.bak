@@ -1,0 +1,383 @@
+﻿@charset "utf-8";
+/*  全局样式  */
+html{color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,textarea,p,th,td{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+fieldset,img{border:0;}
+li{list-style:none;}
+em,strong,th{font-style:normal;font-weight:normal;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select {*font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+/*  body  */
+body{font-size:12px;font-family:"宋体";color:#333;}
+a:link,a:visited{color:#333;text-decoration:none;}
+a:hover{color:#a10000;text-decoration:none;}
+/* <span class="blank+数值"></span> */
+.blank0{clear:both;display:block;font-size:1px;visibility:hidden;height:0;line-height:0;}
+.blank5{clear:both;display:block;font-size:1px;overflow:hidden;height:5px;}
+.blank8{clear:both;display:block;font-size:1px;overflow:hidden;height:8px;}
+.blank10{clear:both;display:block;font-size:1px;overflow:hidden;height:10px;}
+.blank12{clear:both;display:block;font-size:1px;overflow:hidden;height:12px;}
+.blank15{clear:both;display:block;font-size:1px;overflow:hidden;height:15px;}
+.blank20{clear:both;display:block;font-size:1px;overflow:hidden;height:20px;}
+.blank25{clear:both;display:block;font-size:1px;overflow:hidden;height:25px;}
+/*    */
+.danpinBox{width:980px;margin:0 auto;}
+.breadNav{color:#999; Height:22px;Border-bottom:1px solid #ccc;}
+.breadNav span{margin:0 8px;}
+/*  单品左侧  */
+.danpinLeft{width:507px;float:left;display:inline; }
+.selImg{width:507px;}
+.smallImg{width:72px;float:left;display:inline; }
+.smallImg li{margin-top:9px;*margin-top:11px;_margin-top:9px;}
+.smallImg li img{padding:1px;border:1px solid #b4b4b4; }
+.smallImgUp,.smallImgDown{width:72px;height:5px;margin-top:15px;}
+.smallImgDown{margin-top:7px;}
+#onlickImg img{border:1px solid #369;background:#369;  }
+ .bigImg{position:relative; }
+.buhuo{position:absolute;right:10px;top:10px; }
+.fangda img,.fangda span{float:left;display:inline; }
+.fangda span{margin-left:8px;line-height:28px;}
+.pingfen span{color:#999;}
+.pingfen img{margin-bottom:-1px;}
+.voteArea{width:505px;border:1px solid #d6d6d6;background:#f4f7fc;position:relative;   }
+.voteArea p{padding:8px 15px;line-height:22px;color:#666;}
+.voteArea p strong{color:#000;}
+.voteArea span{position:absolute;right:15px;bottom:12px; }
+.voteArea span a:link,.voteArea span a:visited,.voteArea span a:hover{color:#a10000;text-decoration:none; }
+/*   横向小图滚动   */
+.HsmallImg{width:450px;margin:0 auto;}
+.HsmallImg #imageMenu{white-space: nowrap; overflow: hidden; width: 430px; float: left;}
+.smallImg #imageMenu{height: 421px; overflow:hidden;}
+.smallImgLeft{margin-right:10px;}
+.HsmallImg li,.smallImgLeft,.smallImgRight{float:left;display:inline; }
+.HsmallImg li{margin-right:10px;}
+.HsmallImg li img{padding:1px;border:1px solid #b4b4b4;}
+/*  单品右侧  */
+.danpinRight{width:442px;float:right;display:inline;}
+.danpinRight h2{color:#333;font-size:14px;font-weight:bold; position:relative;}
+.danpinRight h2 p{ line-height:20px;margin-right:60px;font-size:14px;}
+.brandNumArea{color:#999;}
+.brandNumArea span{margin-right:20px;}
+.brandNumArea strong{color:#333;}
+.cuxiaoPrice{color:#333;}
+.cuxiaoPrice span{color:#a10000;}
+.cuxiaoPrice strong{font-size:24px;font-family:Tahoma;}
+.MSpriceArea span{margin-right:20px;}
+.MSpriceArea span strong{color:#999;}
+.vipPrice span{color:#333;margin-right:20px;}
+.question{float:right;display:inline;}
+.question img,.question a{float:left;display:inline; }
+.question img{margin-right:4px;}
+.question a{*line-height:13px;_line-height:15px;}
+.ectArea{width:440px;border:1px solid #dcdcdc; }
+.payArea{border-bottom:1px solid #dcdcdc;}
+.mianyunfei{margin-top:10px;*margin-top:15px;_margin-top:10px;text-indent:80px;color:#a10000;}
+.shuoming{padding-left:15px;}
+.goodsAddArea strong,.shuoming strong,.pay strong{color:#a10000;font-weight:bold;}
+.payLeft{width:80px;line-height:22px;text-align:right;font-weight:bold;color:#a10000;float:left;display:inline; }
+.payRight{width:320px;line-height:22px;*line-height:24px;_line-height:22px;float:left;display:inline; }
+.pay a{margin:0 4px;}
+.ColorArea{background:#f4f7fc; }
+.Color{width:100%;border-bottom:1px solid #dcdcdc;}
+.clothingColor h3{line-height:19px;text-indent:10px;color:#999;float:left;display:inline; }
+.clothingColor h3 strong{color:#a10000;font-weight:bold;}
+.Color ul{margin-left:6px;}
+.selColor li{width:100px;height:54px; margin:0 4px 6px 0;;border:1px solid #b4b4b4; float:left;display:inline; }
+.colorBlock{width:98px;height:52px;margin:0 auto;margin-top:1px;background:#fff;  }
+.colorBlock img{width:50px;height:50px;margin:1px 0 0 1px;float:left;display:inline;overflow:hidden; }
+.colorBlock p{width:40px;margin-left:6px;padding-top:4px;line-height:16px;color:#666;float:left;display:inline; }
+#onlickColor{border:1px solid #369;background:#369;  }
+.selSizeArea{margin-top:16px;}
+.selSizeArea h3{margin-left:10px;line-height:20px;color:#999;float:left;display:inline; }
+.selSizeArea h3 strong{color:#a10000;}
+.selSizeArea h4{margin-right:25px;float:right;display:inline;background:#fff;Border:1px solid #ccc;Line-height:18px;Padding:0 3px;}
+.selSizeArea h4 button{width:81px;height:19px;line-height:19px;font-size:12px;color:#a10000;background:url(http://images.vancl.com/Others/2010/8/20/lookSize.gif) no-repeat;border:none;cursor:pointer;}
+.selSizeArea ul{margin-left:10px;}
+.selSizeArea li{height:22px;line-height:22px;margin-right:5px;padding:0 10px;background:#fff;color:#333;text-align:center;  border:1px solid #c8c8c8; float:left;display:inline;cursor:pointer; }
+#onlickSelSize{border:1px solid #369;background:#bacbdd;  }
+.shoppingCarArea div{float:left;display:inline; }
+.goodsNum{width:115px;padding:18px 0 0 20px;}
+.goodsNum span,.goodsNum select{float:left;display:inline; }
+.goodsNum span{line-height:22px;color:#666;}
+.goodsNum select{width:42px;height:20px;line-height:20px;}
+.goodsPrice{width:175px;}
+.goodsPrice p{color:#666;}
+.goodsPrice p strong{font-weight:bold;}
+.goodsPrice p em{color:#a10000;}
+.goodsCar .btn1{width:108px;height:28px;margin-top:13px;border:none;background:url(../images/shoppingCar.gif) no-repeat;cursor:pointer;}
+.goodsCar .btn2{width:108px;height:28px;margin-top:13px;border:none;background:url(../images/pic_gwc__r2_c10.jpg) no-repeat;cursor:pointer;}
+.youhuiArea{width:440px;padding-top:25px;*padding-top:30px;_padding-top:25px;background:#f4f7fc url(http://images.vancl.com/Others/2010/8/20/youhuiBg.gif) no-repeat; border:1px solid #d6d6d6; }
+.youhuiArea li{margin-bottom:15px;*margin-bottom:17px;_margin-bottom:15px;text-indent:70px;color:#a10000;background:url(http://images.vancl.com/Others/2010/8/20/dian.gif) no-repeat 60px 5px;}
+.youhuiArea li a:link, .youhuiArea li a:visited, .youhuiArea li a:hover{ color:#a10000; text-decoration:none; }
+.youhuiArea strong{color:#a10000;font-weight:bold; }
+/*  侧栏  */
+.sideBarArea{width:200px;float:left;display:inline; }
+/*  选项卡01  */
+.setTabMenu01{width:200px;height:27px;background:#e6e6e6; border-bottom:1px solid #ddd;position:relative; }
+.setTabMenu01 ul{position:absolute;left:0;top:0; }
+.setTabMenu01 li{width:98px;height:27px;line-height:27px;color:#333;text-align:center;border-left:1px solid #e6e6e6;border-right:1px solid #e6e6e6;   float:left;display:inline; }
+.setTabMenu01 li.hover{width:98px;font-weight:bold;border:1px solid #dedede;border-bottom:none; background:url(http://images.vancl.com/Others/2010/8/20/setTabMenuBg.gif) repeat-x;cursor:pointer;}
+.setTabCon01{width:198px;border:1px solid #d6d6d6;border-top:0;  }
+#con_one_1{padding-bottom:15px;}
+#con_one_1 li{padding-top:5px;padding-left:15px;}
+#con_one_1 li strong{color:#a10000;}
+.sel05{padding-left:14px;}
+.sel05 span{line-height:33px;color:#999;float:left;display:inline; }
+.sel05 span img{margin:0 5px;}
+.conTwoImg li{padding-top:20px;text-align:center; }
+.conTwoImg img{width:150px;height:205px;}
+.conTwoImg li p{padding-top:10px;}
+.conTwoImgName{ }
+.conTwoImgPrice{color:#a10000;}
+.sideBarCon02 li{width:198px;padding-top:15px;}
+.sideBarCon02 img,.sideBarCon02 p{float:left;display:inline; }
+.sideBarCon02 img{margin-left:20px;}
+.sideBarCon02 p{width:98px;padding-left:10px;word-wrap:break-word;word-spacing:normal;}
+.hotName{line-height:18px;}
+.hotPrice{padding-top:4px;color:#a10000;}
+.sideBarCommon{width:198px;border:1px solid #d6d6d6; }
+.sideBarCommon h3{height:27px;line-height:27px;text-indent:10px;font-weight:bold;color:#333;border-bottom:1px solid #d6d6d6;background:url(http://images.vancl.com/Others/2010/8/20/setTabMenuBg.gif) repeat-x; }
+/*   右侧选项卡  */
+.RsetTabArea{width:748px;float:right;display:inline;overflow:hidden;}
+.RsetTabMenu{height:26px;border-bottom:3px solid #848484;}
+.RsetTabMenu li strong{color:#a10000;}
+.RsetTabMenu li{width:146px;height:24px;line-height:24px;margin-right:2px;border:1px solid #d6d6d6;text-align:center;float:left;display:inline;cursor:pointer;}
+.RsetTabMenu li.hover{background:#858585; color:#fff;border:1px solid #878787;cursor:default; }
+li.three5{margin-right:0;}
+li.down{background:#f3f3f3 url(http://images.vancl.com/Others/2010/8/20/down.gif) no-repeat 20px 10px;}
+li.up{background:#f3f3f3 url(http://images.vancl.com/Others/2010/8/20/up.gif) no-repeat 20px 10px;}
+li.hover a:link,li.hover a:visited,li.hover a:hover{color:#fff;text-decoration:none; }
+li.up a:link,li.up a:visited,li.up a:hover,li.down a:link,li.down a:visited,li.down a:hover{color:#777;text-decoration:none; }
+li.hover strong{color:#fff;}
+/*   商品信息   */
+.area1 h3
+{
+ color:#999;
+ font-weight:bold; 
+ Width:748px;
+ Position:relative;
+}
+.area1 h3 p{ position:absolute; right:0;top:0; }
+.area1 h3 p img, .area1 h3 p span{ float:left; }
+.area1 h3 p img{margin-right:5px;}
+.area1 h3 p span{line-height:20px;}
+
+.productMS{text-indent:2em;line-height:20px;padding-bottom:25px;color:#666;border-bottom:1px dotted #999;}
+.sizeList{color:#999; }
+.sizeList table { margin:0 auto; }
+.sizeList thead{background:#f3f3f3; }
+.sizeList thead td{text-align:center; }
+.sizeList td{height:25px;line-height:25px;text-align:center;border:1px solid #e4e4e4;  }
+.col01{width:145px;}
+.col02{width:85px;}
+.col03,.col04,.col05,.col06{width:170px;}
+.imgCon ul{padding-bottom:50px;}
+.imgCon li{width:748px;margin-top:50px;text-align:center; }
+/*   购买评论   */
+.pingfen li{width:232px;margin-right:23px;border:1px solid #d6d6d6; float:left;display:inline; }
+.pingfen h2{width:228px;height:25px;line-height:25px;margin:2px auto;text-indent:40px;background:url(http://images.vancl.com/Others/2010/8/20/area2pingfen.gif) no-repeat;}
+.pingfen h2 img{margin-top:4px;float:left;display:inline; }
+.pingfen h2 strong{margin-right:10px;float:left;display:inline; }
+.starArea{margin-left:12px;}
+.starArea span{height:13px;float:left;color:#999;}
+.pingfenLine{width:72px;height:10px;margin:0 8px;background:#f0f0f0; }
+.pingfenLine strong{width:20%;height:100%;background:#a10000;display:block;overflow:hidden;  }
+
+.sizePingjia{width:746px;border:1px solid #d6d6d6;border-right:0;  }
+.sizePingjia li{height:30px;line-height:30px;border-right:1px solid #d6d6d6;text-align:center; float:left;display:inline;  }
+.sizePingjia li a:link,.sizePingjia li a:visited,.sizePingjia li a:hover{color:#a10000;text-decoration:none; }
+.sizePingjia li span{width:81px;height:25px;line-height:25px;text-indent:30px;margin:2px 0 0 2px;background:url(http://images.vancl.com/Others/2010/8/20/area2Size.gif) no-repeat;float:left; display:block; }
+
+.area2{width:746px;border:1px solid #cfcfcf; }
+.area2Head{height:35px;line-height:35px;background:#f0f0f0; }
+.area2Head li{color:#333;float:left;display:inline; }
+.area2HeadLeft{width:440px;text-indent:20px;font-size:14px;}
+.area2HeadCenter{width:185px;}
+.area2HeadRight{width:120px;}
+.area2Con{border-bottom:1px solid #cfcfcf; }
+.area2ConP{line-height:20px;padding:0 20px;margin-bottom:10px;color:#999;}
+.selCS{width:710px;height:20px;line-height:20px;margin:0 auto; }
+.selCS span{margin-right:24px;color:#999;float:left;display:inline; }
+.selCS li{width:100px;border:1px solid #e5e5e5;border-right:none;  text-align:center; color:#999;background:#f6f6f6; float:left;display:inline; }
+.area2Page{height:44px;}
+.area2Page ul{margin-top:15px;margin-right:14px;float:right;display:inline;}
+.area2Page li{height:15px;line-height:15px;padding:0 4px;float:left;display:inline; }
+.area2Page li strong{color:#a10000;font-weight:bold;}
+li.pageLeft,li.pageRight{border:1px solid #b2b2b2; }
+/*   疑难提问   */
+.area3{width:746px;border:1px solid #cfcfcf; }
+.area3Head{height:26px;background:url(http://images.vancl.com/Others/2010/8/20/areaHeadBg.gif) repeat-x;border-bottom:1px solid #cfcfcf;}
+.area3Head span,.area3Head button{line-height:26px;float:left;display:inline; }
+.area3Sp01 img{margin:6px 8px 0 8px;}
+.area3Sp02,.area3Sp03{font-size:14px;font-weight:bold;color:#333;}
+.area3Sp03{margin-left:8px;margin-right:106px;}
+.area3Sp03 strong{color:#a10000;font-weight:bold;}
+.area3Head select{width:90px;height:20px;margin-top:3px;}
+.area3Head button{width:84px;height:26px;line-height:26px;margin-left:58px;background:#a50000;border:none;font-size:14px;color:#fff;text-align:center;cursor:pointer;  }
+.area3Con{padding:0 10px 0 15px;}
+.userQuesArea{color:#666;}
+.userQuesArea h4{float:left;display:inline; }
+.userQuesArea h4 strong{font-weight:bold;}
+.userQuesArea h5{float:right;display:inline;}
+.area3Con h6{color:#666;font-weight:bold;}
+.adminAsk{padding-right:240px;line-height:20px;text-indent:2em;color:#666;}
+.myAsk{text-align:right;color:#666;}
+.area3ConBg{background:#f0f0f0; }
+.allUser{height:35px;line-height:35px;padding-right:10px;border-bottom:1px solid #cfcfcf;color:#999;text-align:right;}
+/*   售后服务   */
+.area4{width:746px;border:1px solid #cfcfcf;border-top:0;    }
+.area4 h2{width:100%;height:25px;line-height:25px;margin-bottom:5px;color:#a10000;font-weight:bold;font-size:14px;text-indent:34px;background:#f0f0f0;border-top:1px solid #cfcfcf;  }
+.area4 li{padding:0 42px 0 34px;line-height:22px;color:#666;}
+.area4 li em{color:#a10000;font-weight:bold;}
+/*   如何购买   */
+.area5{width:746px;border:1px solid #cfcfcf;border-bottom:0; }
+.area5 h2{width:100%;height:25px;line-height:25px;margin-bottom:5px;text-indent:34px;font-size:14px;font-weight:bold;margin-top:1px;background:#f0f0f0; }
+.area5 h2 strong{color:#a10000;font-weight:bold;}
+.area5 li{padding:0 42px 0 34px;line-height:22px;color:#666;}
+.area5 li em{color:#a10000;font-weight:bold;}
+.area5 li strong{font-weight:bold;}
+.area5List{width:175px;float:left;display:inline; }
+.buttonred{background-color:#9d031f;padding-left:12px;padding-right:12px;height:26px;color:#fff;margin-left:10px;font-size:14px; cursor:pointer}
+
+
+#body
+{
+    border:1px solid #fff;
+    
+}
+.smallImgDown, .smallImgUp, .smallImgRight, .smallImgLeft, #imageMenu li img, .selColor ul li
+{
+    cursor: pointer;
+}
+#bigView
+{
+    position: absolute;
+    border: 1px solid black;
+    overflow: hidden;
+    width: 260px;
+    height: 295.652px;
+    top: 300px;
+    left: 540px;
+}
+#bigView img
+{
+    position: absolute;
+}
+
+#loading
+{
+    text-align: center;
+    padding-top: 200px;
+    position: absolute;
+    top: 282px;
+    left: 0px;
+    width: 520px;
+    height: 484px;
+    background-color: White;
+}
+#winSelector
+{
+    position: absolute;
+    cursor: crosshair;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+    background-color: #e6eaf3;
+    border: 1px solid White;
+}
+#vertical.bigImg {width:400px;height:400px;margin-top:34px;overflow:hidden;}
+#horizontal.bigImg{width:507px;height:456px; }
+#vertical #winSelector
+{
+    width: 130px;
+    height: 170px;
+}
+#vertical #midimg
+{
+    width: 400px;
+    height: 400px;
+}
+
+#horizontal #winSelector
+{
+    width: 180px;
+    height: 120px;
+}
+#horizontal #midimg
+{
+    
+    width: 507px;
+    height: 338px;
+}
+.attricon
+{
+    width: 66px;
+    height: 80px;
+    float: left;
+    background: no-repeat scroll 0 0 transparent;
+}
+#vipiframe{position:absolute; top:0px; left:0px; border:0px;}
+.sizePingjia strong em{color:#a10000;}
+
+
+
+.sizeCal_TipShow{position:relative;top:-110px;left:380px;z-index:3}
+.sizeCal_Tiphide{float:right}
+
+.sizeCal_linkShow{position:relative;top:-110px;left:0px}
+.sizeCal_linkhide{float:left}
+/*  2010-9-20 11:30 如何购买增加5个块  */
+.TI2em{text-indent:2em;}
+/*  2010-9-21 15:49 如何购买样式修改   */
+.area5 h2 span{margin-right:20px;font-size:12px;font-weight:normal;float:right;display:inline;}
+.area5Table{margin:0 34px;line-height:22px;color:#666;}
+.area5 table strong{font-weight:bold;}
+.payKinds td{text-align:center; }
+.payFS{line-height:22px;color:#666;}
+
+
+/*  2010-10-29 库存信息  */
+.goodsAddArea{width:420px;height:25px;padding:10px 0 10px 15px;background:#fff;position:relative;z-index:0;border-top:1px solid #ccc; }
+.goodsAdd span{float:left;display:inline;line-height:26px; }
+span.goodsAdd{width:55px;height:20px;text-align:center; line-height:20px;}
+.addressWindows{width:328px;background:#fff; border:2px solid #bdbdbd;position:absolute;left:109px;top:32px;z-index:-1;font-size:12px;  }
+.addressWindows span{color:#999;}
+.addressWindows p{padding:15px 0 0 15px;}
+.cityAdd{width:70px;border:2px solid #bdbdbd;cursor:pointer;background:#fff;margin:0 5px 0 5px;float:left;display:inline;}
+.cityAdd strong{width:15px;float:right;display:block;background:url(http://images.vancl.com/Others/2010/10/30/downTag.gif) no-repeat 0px 7px;}
+.cityAddHover{border-bottom:2px solid #fff}
+/*  2010-11-22 视频播放  */
+/*
+.btnFX{width:101px;height:23px;line-height:23px;margin-left:173px;background:#333 url(http://images.vancl.com/Others/2010/8/20/btnFX.gif) no-repeat;border:none;text-indent:20px;font-size:12px;float:left;display:inline; cursor:pointer;}
+.btnSC{width:108px;height:23px;line-height:23px;margin:0 30px;background:#333 url(http://images.vancl.com/Others/2010/8/20/btnSC.gif) no-repeat;border:none;text-indent:20px;font-size:12px;float:left;display:inline; cursor:pointer;}
+*/
+.btnFangdaArea{width:375px;margin-left:140px;position:relative;text-align:center;}
+.btnFangdaArea span{margin:0 auto;float:left;display:block;margin-right:5px;}
+.btnFX{width:101px;height:23px;line-height:23px;background:#333 url(http://images.vancl.com/Others/2010/8/20/btnFX.gif) no-repeat;border:none;text-indent:20px;font-size:12px;float:left;display:inline; cursor:pointer;}
+.btnSC{width:101px;height:23px;line-height:23px;background:#333 url(http://images.vancl.com/Others/2010/8/20/btnSC.gif) no-repeat;border:none;text-indent:20px;font-size:12px;float:left;display:inline; cursor:pointer;}
+.fangdaArea p{float:right;display:inline;}
+.videoBtn{width:108px;height:23px;border:0;cursor:pointer;background:url(http://images.vancl.com/Others/2010/8/20/videoBtn.gif) no-repeat;}
+.videoBtn02 {cursor:pointer;height:23px;width:200px;background:url(http://images.vancl.com/Others/2010/8/20/fanhuiImg.gif) no-repeat;}
+
+.brandNumArea span{ display:inline; float:left; margin-right:15px;}
+.QZico{ display:inline; float:right; width:170px;}
+.QZico span{ margin-right:3px; display:inline; float:right;} 
+
+.proudctBox{width:329px; position:absolute; background-color:White;}
+.proudctConArea{width:319px;border:5px solid #f1f1f1;}
+.proudctConArea h2{height:28px;line-height:28px;text-indent:15px;font-size:14px;font-weight:bold;color:#999;}
+.proudctConArea p{padding:0 15px;line-height:20px;}
+.proudctConArea p strong{color:#a10000;margin:0 5px;}
+
+
+/*		达人搭配展示		*/
+.assort{width:746px; height:87px;margin-top:10px; border:1px solid #e3e3e3; clear:both; overflow:hidden; zoom:1;}
+.assorttitle{ width:25px; background-color:#f2f2f2; font-weight:bold; color:#66696e; height:71px; text-align:center; vertical-align:middle; padding-top:16px; border-right:1px solid #e3e3e3; display:inline; float:left;}
+.assortlist{ width:720px; height:77px; display:inline; float:left; padding-top:10px;}
+.assortlist ul{ display:block;}
+.assortlist li{ display:inline; float:left; width:168px; margin:0px; padding:0px; margin-left:10px; text-align:left;}
+.assortpic{ display:inline; float:left;}
+.assortdetail{ display:inline; float:left; padding-left:8px; width:90px;line-height:20px;}
+.assortprice{ color:#a10000;}

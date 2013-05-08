@@ -1,0 +1,380 @@
+﻿.cols_manage #main{
+	width:780px;
+	background:url(../images/bg_accountmain.png) repeat-y center;
+	margin-right:0;
+}
+#position{
+	color:#000;
+	background:url(../images/bg_position.png) repeat-x;
+	border:1px solid #CCC;
+	height:27px;
+	line-height:27px;
+	margin:9px 0;
+}
+#position dt{
+	display:inline;
+	background:url(../images/ico_position.png) no-repeat 18px;
+	padding-left:42px;
+}
+#position dd{
+	display:inline;
+	font-weight:700;
+}
+#wrap #welcome{
+	float:right;
+	display:inline;
+	margin:-33px 36px;
+	color:#000;
+}
+#wrap #welcome .btn{
+	color:#FFF;
+	background:url(../images/bg_btn.png) no-repeat;
+	border:0;
+	width:57px;
+	height:19px;
+	_height:21px;
+	padding-top:2px;
+}
+
+/*main*/
+.mngbox{
+	background:url(../images/bg_accountmain.png) no-repeat;
+}
+.mngbox .main{
+	background:url(../images/bg_accountmain.png) no-repeat right bottom;
+	padding:24px 40px;
+}
+.mngbox h3{
+	background:url(../images/bg_accountcol.png) repeat-x bottom;
+	height:24px;
+	margin:0 0 15px;
+}
+.mngbox h3 span{
+	float:left;
+	font:700 14px/22px "宋体";
+	padding:0 6px;
+	border-bottom:2px solid #92002d;
+}
+.listtable,.orderdiv{
+	width:98%;
+	margin:auto;
+	background:#F2F2F2;
+}
+
+.listtable table{
+	width:100%;
+	position:relative;
+	top:-3px;
+	left:-2px;
+}
+.listtable th,.listtable td{
+	border:1px solid #D8D8D8;
+	padding:5px;
+	background:#FFF;
+	text-align:center;
+}
+.listtable table,.orderdiv div{
+	width:100%;
+	position:relative;
+	top:-3px;
+	left:-2px;
+}
+.listtable th,.listtable td{
+	border:1px solid #D8D8D8;
+	padding:5px;
+	background:#FFF;
+}
+.listtable th{
+	background:#f9f9f9;
+	font-weight:700;
+}
+.orderdiv{
+	margin:10px auto;
+}
+.orderdiv div{
+	border:1px solid #D8D8D8;
+	background:#FFF;
+}
+.orderdiv h4{
+	color:#000;
+	background:#f9f9f9;
+	padding:7px 12px;
+	font-size:12px;
+	border-bottom:1px solid #D8D8D8;
+}
+.orderdiv p{
+	margin:12px;
+}
+.orderdiv .time p{
+	margin:0;
+	color:#000;
+	background:#f9f9f9;
+	padding:7px 12px;
+}
+.orderdiv .time .func{
+	float:right;
+	margin-top:-24px;
+}
+.orderdiv table{
+	width:95%;
+	margin:9px auto;
+	border-bottom:1px solid #d9d9d9;
+}
+.orderdiv th,.orderdiv td{
+	padding:9px;
+}
+.orderdiv th{
+	text-align:left;
+	border-bottom:1px solid #d9d9d9;
+}
+.orderdiv .total{
+	text-align:right;
+}
+.orderdiv .regtable,.orderdiv .prodtable{
+	width:100%;
+	margin:0;
+	position:relative;
+	top:-3px;
+	left:-2px;
+	border:0;
+}
+.orderdiv .regtable caption{
+	background:#e0e0e0;
+	padding:7px;
+	text-align:left;
+	font-weight:700;
+	border:1px solid #e2e2e2;
+	border-bottom:0;
+}
+.orderdiv .regtable th{
+	background:#F7F7F7;
+	border:1px solid #e2e2e2;
+	width:22%;
+}
+.orderdiv .regtable td{
+	background:#FFF;
+	border:1px solid #e2e2e2;
+	width:28%;
+}
+.orderdiv .prodtable th,.orderdiv .prodtable td{
+	background:#fff;
+	border:1px solid #e2e2e2;
+	text-align:center;
+}
+.orderdiv .prodtable th{
+	background:#e0e0e0;
+}
+.orderdiv .prodtable .tr2 td{
+	background:#F7F7F7;
+}
+
+.bay
+{
+	 cursor:pointer;	
+}
+.listtable th{
+	background:#f9f9f9;
+	font-weight:700;
+}
+#checkPassword li
+{
+	 padding:7px 0;
+	 text-align:center;
+}
+#checkPassword span
+{
+	width:150px;
+	text-align:left;
+}
+#checkPassword input
+{	
+	border:1px solid #7e9db9;
+	padding:3px;
+	width:160px;
+	height:20px;
+}	
+.tips{
+	background:url(images/ico_tips.png) no-repeat;
+	font:13px/18px "宋体";
+	text-indent:24px;
+}
+#balance p{
+	margin:12px 24px;
+}
+#balance h4{
+	font:12px/3 "宋体";
+	color:#000;
+	background:#FFF;
+	text-align:center;
+}
+#giftcard form{
+	text-align:center;
+	padding:0 0 30px;
+	margin:0 0 18px;
+	border-bottom:1px dashed #777;
+}
+#giftcard form h3{
+	margin:0 0 30px;
+}
+.UserInfo_input
+{
+	border:1px solid #7e9db9;
+	padding:3px;
+	width:160px;
+
+}
+#giftcard .input,#mdfdata .input,#mdfemail .input,#mdfpwd .input,#address .addadr .input{
+	border:1px solid #7e9db9;
+	padding:3px;
+	width:160px;
+}
+#giftcard .btn,#mdfdata .btn,#mdfemail .btn,#mdfpwd .btn,#address .operate .btn,#address .addadr .btn,#tmpshelf .btn{
+	padding-left:6px;
+	color:#FFF;
+	background:url(../images/bg_btn1.png) no-repeat;
+	border:0;
+	width:47px;
+	height:20px;
+}
+#giftcard .total{
+	text-align:right;
+	padding:9px;
+}
+#tmpshelf .tips{
+	margin:15px 0;
+}
+#tmpshelf .operate p{
+	text-align:center;
+	margin:6px 0;
+}
+#mdfdata dl{
+	overflow:hidden;
+	margin:15px 0;
+}
+#mdfdata dt{
+	float:left;
+	width:150px;
+	text-align:right;
+	color:#000;
+	margin-top:3px;
+}
+#mdfdata dd{
+	float:left;
+	width:480px;
+	margin:0 0 15px;
+}
+#mdfdata textarea.input{
+	width:240px;
+	height:72px;
+}
+#mdfdata .btn,#address .addadr .btn{
+	margin-left:240px;
+}
+#mdfemail dl,#mdfpwd dl{
+	overflow:hidden;
+	margin:36px 0;
+}
+#mdfemail dt,#mdfpwd dt{
+	float:left;
+	width:120px;
+	color:#000;
+	line-height:1.5;
+	padding-left:120px;
+}
+#mdfemail dd,#mdfpwd dd{
+	float:left;
+	width:410px;
+	line-height:1.5;
+	margin:0 0 15px;
+}
+#mdfemail .btn,#mdfpwd .btn{
+	margin-left:30px;
+}
+#address ol li{
+	background:#f3f3f3;
+	list-style:inside decimal;
+	padding:9px 24px;
+	margin:15px 0;
+}
+#address ol li p{
+	margin:9px 20px;
+	*margin:9px 16px;
+}
+#address .operate{
+	text-align:right;
+}
+#address .addadr{
+	border-top:1px dashed #999;
+	padding-top:24px;
+	margin-top:21px;
+}
+#address .addadr dl{
+	overflow:hidden;
+	margin:36px 0;
+}
+#address .addadr dt{
+	float:left;
+	width:90px;
+	color:#000;
+	line-height:1.5;
+	padding-left:72px;
+}
+#address .addadr dd{
+	float:left;
+	width:450px;
+	line-height:1.5;
+	margin:0 0 15px;
+}
+#address .addadr .input.adr{
+	width:420px;
+}
+#address .addadr .btn{
+	background:url(../images/bg_btn2.png);
+	width:104px;
+}
+#mycard
+{
+	 text-align:center;
+}
+#mycard li
+{
+     list-style-type:none;
+     display:inline;	
+}
+/*side*/
+#managenav div{
+	background:url(../images/bg_accountnav.png) repeat-y center;
+	margin:9px 3px;
+	zoom:1;
+}
+#managenav h3{
+	background:url(../images/bg_accountnav.png) no-repeat;
+}
+#managenav h3 span{
+	display:block;
+	height:43px;
+	text-indent:-999em;
+	background:url(../images/col_mng_account.png) no-repeat 30px 10px;
+}
+#managenav .prod h3 span{
+	background-image:url(../images/col_mng_prod.png);
+}
+#managenav .personal h3 span{
+	background-image:url(../images/col_mng_person.png);
+}
+#managenav ul{
+	background:url(../images/bg_accountnav.png) no-repeat right bottom;
+	padding:0 9px 9px;
+	overflow:hidden;
+	zoom:1;
+}
+#managenav li{
+	background:url(../images/ico_redsq.png) no-repeat 18px;
+	line-height:2;
+	padding-left:30px;
+	border-top:1px dashed #e1dfe0;
+	margin-top:-1px;
+}
+#managenav .current,#managenav a:hover{
+	font-weight:700;
+}

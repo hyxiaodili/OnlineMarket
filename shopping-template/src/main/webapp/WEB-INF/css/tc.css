@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*  内容  */
+
+
+
+.tcBox{ width:359px; height:113px;position:absolute;right:-20px;top:-122px; background:url(http://images.vancl.com/SizeCalculate/tc.gif) no-repeat; padding-right:5px; padding-top:4px;}
+.btn{width:120px; height:31px; line-height:31px; text-align:center; border:0; background-image:url(http://images.vancl.com/SizeCalculate/btn.jpg);color:#FFF; cursor:pointer;  margin-top:7px; margin-left:121px;color:#FFF; float:left;}
+.tcHeader img{ float:right; display:inline;}
+.red{ color:#a10000; font-weight:bold;}
+.tcBody p{ line-height:28px; padding-left:24px;}
+.iknow input{ color:#3F0; margin:22px 0 0 8px;*margin-top:18px; float:left; display:inline;}
+
+.ts{ float:left; display:inline; margin:22px 0 0 8px;}
+
+#sizeCal_text{font-weight:normal;}
+#sizeCal_text a:link,#sizeCal_text a:visited{color:#a10000;text-decoration:none;}
+#sizeCal_text a:hover{color:#a10000;text-decoration:underline;}

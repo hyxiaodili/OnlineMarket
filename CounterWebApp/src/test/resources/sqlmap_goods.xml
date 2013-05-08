@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap
+    PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<?xml-stylesheet type="text/xsl" href="SpecialDB.xslt"?>
+<sqlMap namespace="Goods">
+	
+	<typeAlias alias="Goods" type="com.hy.it.shopping.entity.Goods" />
+	<cacheModel id="goods-cache" type="LRU">
+		<flushInterval hours="24" />
+		<flushOnExecute statement="queryAll" />
+		<property name="size" value="1000" />
+	</cacheModel>
+	<select id="queryAll" resultClass="Goods" cacheModel="goods-cache">
+		select * from t_goods
+	</select>
+
+	<select id="queryById" parameterClass="java.lang.String"
+		resultClass="Goods">
+		select * from t_goods where goods_id=#id#
+	</select>
+	
+	<update id="updateGoods" parameterClass="com.hy.it.shopping.entity.Goods">
+		update t_goods set goods_name = #goods_name#
+	</update>
+
+</sqlMap>

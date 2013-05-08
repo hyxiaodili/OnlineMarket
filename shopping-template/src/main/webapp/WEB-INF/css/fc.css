@@ -1,0 +1,34 @@
+﻿/* CSS Document */
+
+.fc{ width:320px; height:392px; background-color:#e6eaf3; font-size:12px; color:#999999; border: 1px solid #777777; z-index:9 }
+.fc .jJ{ margin:0; padding:9px 0 10px 0; height:200px}
+.fc .jJ img { border:1px solid #FFFFFF;}
+.fc .sd{font-size:14px; color:#333333; margin:0px 10px 0 10px; padding:0; font-weight:bold; text-align:center;line-height:18px;}
+.jJ01{margin:7px 0 0 19px; }
+.jJ02{margin:17px 0 0 19px; color:#a10000;}
+
+.jJ03{margin:7px 0 0 19px;}
+.jJ03 span{color:#333333;}
+.jJ04{margin:17px 0 0 19px; }
+.jJ04 img{margin-right:3px;}
+
+
+.fc02{ width:290px; height:483px; background-color:#e6eaf3; font-size:12px; color:#999999;border: 1px solid #777777; z-index:9}
+.fc02 .jJ{ margin:0; padding:9px 0 10px 0; height:310px; }
+.fc02 .jJ img { border:1px solid #FFFFFF;}
+.fc02 .sd{font-size:14px; color:#333333; margin:0px 10px 0 10px; padding:0; font-weight:bold ;text-align:center;line-height:18px;}
+.ico{
+	height:25px;
+	position:absolute; 
+	z-index:10;
+	width:12px;
+	float:left;
+	top:20px;
+	background-image:url(http://images.vancl.com/NewVancl/Productlist/drift/jt.gif);
+	
+}
+.fc03{ width:200px; height:60px; background-color:#e6eaf3; font-size:12px; color:#999999;border: 1px solid #777777; z-index:9; padding-top:25px;}
+.selfsuitCss{width:886px;overflow:hidden; float:left;height:80px;}
+.selfsuitCss1{float: left;width: 800%;}
+.selfsuitCss2{float:left;}
+.selfsuitCss3{float:left;}

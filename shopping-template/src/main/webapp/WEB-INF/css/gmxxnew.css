@@ -1,0 +1,139 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,textarea,p,th,td{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select {*font-size:100%;}
+
+.blank0{clear:both;display:block;font-size:1px;visibility:hidden;height:0;line-height:0;margin-top:0px;}
+.blank5{clear:both;display:block;font-size:1px;overflow:hidden;height:5px;}
+.blank8{clear:both;display:block;font-size:1px;overflow:hidden;height:8px;}
+.blank10{clear:both;display:block;font-size:1px;overflow:hidden;height:10px;}
+.blank12{clear:both;display:block;font-size:1px;overflow:hidden;height:12px;}
+.blank15{clear:both;display:block;font-size:1px;overflow:hidden;height:15px;}
+.blank20{clear:both;display:block;font-size:1px;overflow:hidden;height:20px;}
+.blank25{clear:both;display:block;font-size:1px;overflow:hidden;height:25px;}
+
+.dingdan{width:800px;margin:0 auto;}
+.dingdan p{margin:0px;padding:0px;}
+.dingdan .nowPayArea p{text-align:left;}
+.shoppingstepcontrol{color:#a10000;font-weight:bold;}
+.listArea{width:798px;border:1px solid #dfdee3;margin:0 auto; }
+.dingdanHead{padding:30px 0 10px 0;text-align:center; }
+.dingdanList{width:734px;margin:0 auto;}
+.listHead{border-right:1px solid #d8d8d8; }
+.listHead ul{padding:0px;margin:0px;}
+.listHead li{line-height:24px;background:#d8d8d8;border-right:1px solid #fff;  float:left;display:inline;text-align:center;  }
+.listCon li{background:#fff;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;  }
+.listCon li span{color:#a10000;}
+.nowPayArea{width:742px;margin:0 auto;margin-top:50px;border-top:1px solid #7f8084;position:relative;  }
+.nowPayArea02{width:742px;margin:0 auto;margin-top:30px;border-top:1px solid #7f8084;position:relative;  }
+.nowPayArea p,.nowPayArea02{line-height:18px;}
+.nowPayArea p strong,.nowPayArea02 p strong{color:#a10000;}
+.myAccount{margin-top:10px;margin-bottom:40px;text-align:right;}
+.myAccount strong{color:#404040;}
+.btnNowPay{border:none;cursor:pointer;position:absolute;left:366px;top:50px; }
+.payUser p{text-indent:32px;line-height:20px;}
+.CompleteWord{color:#666666;}
+.liheight{ width:182px;}
+.liheight_{ width:142px;}
+
+
+.show{display:block;}
+.hide{display:none;}
+.amountArea{ padding:0px; margin:0px;}
+.moneyCardArea{ padding:0px; margin:0px;}
+.amountArea li{list-style:none;}
+.moneyCardRight li{list-style:none;}
+.orderBox{width:800px;margin:0 auto;}
+.orderLogoArea{height:54px;border-bottom:1px solid #7a7f89;}
+.orderLogoArea h2{float:left;display:inline; }
+.orderLogoArea h3{padding-top:34px;float:right;display:inline;}
+.breadNav{height:52px;line-height:52px;color:#999;}
+.breadNav span{margin:0 8px 0 5px;}
+.breadNav strong{color:#a10000;font-weight:bold;}
+.userMsgArea{width:798px;border:1px solid #dcdfe5; }
+.userMsgCon{width:760px;margin:0 auto;}
+.userMsg{height:46px;text-indent:10px;font-size:14px;font-weight:bold;color:#666;line-height:46px;border-bottom:1px solid #dcdfe5;}
+.userMsg span{margin-left:10px;font-size:12px;font-weight:normal;}
+.userMsg span a:link,.userMsg span a:visited,.userMsg span a:hover{color:#a10000;text-decoration:none; }
+.msgArea{border-bottom:1px solid #dcdfe5;}
+.msgCon{text-indent:10px;}
+.msgCon span{margin-right:25px;color:#999;}
+.msgCon span strong{color:#666;}
+.selMannerArea{text-indent:10px;color:#666;border-bottom:1px solid #dcdfe5;}
+.selMannerArea strong{font-size:14px;font-weight:bold;}
+.selManner input,.selManner p{float:left;display:inline; }
+.selManner input{margin-left:10px;*margin-top:-5px;}
+.selManner p a{margin-left:15px;}
+.explain{text-indent:32px;*text-indent:40px;}
+.goodsListArea{border-bottom:1px solid #7a7f89;}
+.goodsListHead{color:#666;}
+.goodsListHead h2{float:left;display:inline; }
+.goodsListHead h2 strong{margin-right:10px;font-size:14px;font-weight:bold;}
+.goodsListHead h2 em{color:#a10000;font-weight:bold;}
+.goodsListHead h3{float:right;display:inline;}
+.tHead{height:24px;line-height:24px;background:#7a7f89; }
+.tHead td{color:#fff;text-align:center; }
+.tBody td{height:24px;line-height:24px;color:#666;text-align:center; }
+.amountArea li{ padding-left:35px; line-height:28px;color:#666;float:left;display:inline; }
+.moneyCardLeft{width:500px;float:left;display:inline;text-align:left;padding-top:10px; }
+.moneyCardLeftHead{font-size:14px;font-weight:bold;color:#666;text-align:left;}
+.moneyCardLeft div img{margin-bottom:-1px;margin-right:4px;}
+
+.comBg{width:394px;height:98px;background:#f1f1f1;border-top:1px solid #c3c3c3;border-bottom:1px solid #c3c3c3;  }
+.comBg h2{padding:10px 0 10px 18px; margin:0px;#828282;font-weight:bold;font-size:100%;}
+.comBg h2 input{margin:0 5px -1px 10px;}
+.shuoming div,.lipinCard div{float:left;display:inline; }
+.shuomingLeft{width:110px;text-align:right;}
+.shuomingRight textarea{width:160px;height:52px;margin-left:5px;border:1px solid #899ba9;font-size:12px; }
+.lipinCardLeft{width:115px;line-height:22px;text-align:right;}
+.yanzhengBtn{width:72px;height:25px;line-height:25px;margin-left:20px;background:url(https://sslimg.vancl.com/NewVancl/Shopping/yanzheng.gif) no-repeat;border:none;cursor:pointer;color:#fff;font-weight:bold;}
+
+.altercomBg{width:394px;border:1px solid #c3c3c3;}
+.altercomBg h2{padding:10px 0 0 18px;color:#828282;font-weight:bold;}
+.altercomBg h4{font-size:14px;text-align:center;font-weight:bold;color:#666;}
+.altercomBg h4 strong{margin:0 2px;font-weight:bold;color:#a10000;}
+.altershuoming h3{height:26px;line-height:26px;padding-left:18px;color:#666;}
+.altershuoming textarea{width:280px;height:55px;margin:0 0 0 18px;border:1px solid #7f9db9;}
+.alterlipinCard div{float:left;display:inline; }
+.alterlipinCardLeft{width:78px;line-height:22px;text-align:right;}
+.Fpassword{width:150px;height:20px;line-height:22px;border:1px solid #899ba9;float:left;display:inline;  }
+.selFP{width:55px;height:20px;line-height:20px;}
+.alteryanzhengBtn{width:73px;height:23px;line-height:23px;margin-left:160px;color:#fff;text-align:center;background:url(https://sslimg.vancl.com/AlterOrder/yanzheng.gif) no-repeat;cursor:pointer;border:0;float:left;display:inline;}
+
+
+.moneyCardRight{width:260px;float:right;display:inline; padding:0px; margin:0px;}
+.moneyCardRight li{margin-bottom:8px;text-align:right;color:#666;}
+.NOgoods{width:798px;border:1px solid #dedede; }
+.NOgoods h2{padding:10px 0 12px 25px;color:#a10000;}
+.NOproductList{margin-left:25px;}
+.submitBtnArea{line-height:60px;text-align:right;color:#666;}
+.submitBtnArea input{width:117px;height:32px;margin:10px 0 0 5px;background:url(images/submitBtn.gif) no-repeat;border:none;cursor:pointer;float:right;display:inline;}
+
+.reusableColor6
+{
+clear:both;
+display:block;
+height:10px;
+overflow:hidden;
+}
+.reusableColor7
+{
+clear:both;
+display:block;
+height:1px;
+overflow:hidden;
+}
+.bxStySplit{border:1px solid #dcdfe5; padding:1px; width:798px; float:left; margin-bottom:15px;}
+.titleSty div{ font-size:14px; margin:0; border-bottom:1px solid #dcdfe5; padding:14px 0 14px 12px; }
+.titleSty div span {font-size:12px;} 
+.titleSty div input{margin-left:0px;display:inline;float:left;}
+.titleSty div p{display:inline;float:left; padding:0px; margin:0 0 0 8px;font-size:12px;}
+.titleSty div p a{ padding-left:15px;}
+.bxStySplit .editpadding{margin-left:12px; font-size:12px; font-weight:normal;}
+.bxStySplit .editpadding_{margin-left:12px; font-size:12px; font-weight:normal;}
+.bxStySplit .reusableColor3{ color:#666666;padding-right:25px;}
+.bxStySplit .titleSty .h20{padding-right:15px;}
+.bxStySplit .titleSty{ margin:10px 20px 13px 20px;}
+.Carddiv{width:394px; text-align:center;padding-top:25px;}
+.CardPayword{font-size:14px; font-weight:bolder;}
+.addclass{ width:67px;}

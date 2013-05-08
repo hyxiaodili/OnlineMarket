@@ -1,0 +1,18 @@
+imglist=new RandomimgPlayer("class='track' name='h-w-02'");
+imglist.Add("http://images.vancl.com/Others/2010/10/15/but_home_women_r_101015.jpg",0,"http://www.vancl.com/zhuanti/women/bq_20101015.htm");
+imglist.Add("http://images.vancl.com/Others/2011/1/28/advwoman_mid_110126866_011.jpg",50,"http://www.vancl.com/zhuanti/women/kz_20110114.htm");
+imglist.Add("http://images.vancl.com/Others/2011/2/12/advwoman_mid_110212.jpg",50,"http://www.vancl.com/zhuanti/women/lyq_20110117.htm");
+imglist.Add("http://images.vancl.com/Others/2010/5/12/but_home_women_r_100512.jpg",0,"http://www.vancl.com/zhuanti/nvku_20100512.htm");
+imglist.Add("http://images.vancl.com/Others/2010/5/31/but_home_women_r_100531.jpg",0,"http://www.vancl.com/zhuanti/qbk_20100531.htm");
+imglist.Add("http://images.vancl.com/Others/2010/6/7/but_home_women_r_100607.jpg",0,"http://www.vancl.com/zhuanti/ddqg_20100524.htm");
+imglist.Add("http://images.vancl.com/Others/2010/6/29/but_home_women_r_100629.jpg",0,"http://demowww.vancl.com/zhuanti/lyq_20100622.htm");
+imglist.Add("http://images.vancl.com/Others/2010/6/30/but_home_women_r_100630.jpg",0,"http://www.vancl.com/zhuanti/lsdd_20100623.htm");
+imglist.Add("http://images.vancl.com/Others/2010/7/2/but_home_women_r_100702.jpg",0,"http://www.vancl.com/zhuanti/csnk_20100621.htm");
+imglist.Add("http://images.vancl.com/Others/2010/7/2/but_home_women_r_100703.jpg",0,"http://demowww.vancl.com/zhuanti/lyq_20100622.htm");
+imglist.Add("http://images.vancl.com/Others/2010/7/7/but_home_women_r_100707.jpg",0,"http://www.vancl.com/zhuanti/xfbq_20100701.htm");
+imglist.Add("http://images.vancl.com/Others/2010/7/12/but_home_women_r_100712.jpg",0,"http://www.vancl.com/zhuanti/lyq_20100622.htm");
+imglist.Add("http://images.vancl.com/Others/2010/9/26/but_home_women_r_100726-7.jpg",0,"http://www.vancl.com/zhuanti/women/qdnz_20100920.htm");
+imglist.Add("http://images.vancl.com/Others/2010/9/14/but_home_women_r_100814.jpg",0,"http://www.vancl.com/zhuanti/integrated/cxtx_20100818.htm");
+imglist.Add("http://images.vancl.com/Others/2010/9/17/but_home_women_r_100817.jpg",0,"http://www.vancl.com/zhuanti/women/zzs_20100826.htm");
+imglist.Add("http://images.vancl.com/Others/2010/11/4/xd10110404.jpg",0,"http://www.vancl.com/zhuanti/women/jk_20101028.htm");
+$("#randomadver_woman_2").html(imglist.GetFirstImgHTML("class='track' name='h-w-02'"));

@@ -1,0 +1,418 @@
+@charset "utf-8";
+/* CSS Document */
+/*	 清零样式  	*/
+html{color:#333;background:#fff;}
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,input,button,textarea,p{margin:0;padding:0; font-size:12px;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+LI {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+img{border:none;}
+input,button,textarea,select,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+body{font-size:inherit; font-family:inherit; font-weight:inherit;}
+a:link,a:visited{color:#000;text-decoration:none;}
+a:hover{color:#a10000;text-decoration:none;}
+/* span blank */
+.blank0 {clear:both;display:block;font-size:1px;visibility:hidden;height:0;line-height:0;}
+.blank5 {clear:both;display:block;font-size:1px;overflow:hidden;height:5px;}
+.blank8 {clear:both;display:block;font-size:1px;overflow:hidden;height:8px;}
+.blank10{clear:both;display:block;font-size:1px;overflow:hidden;height:10px;}
+.blank12{clear:both;display:block;font-size:1px;overflow:hidden;height:12px;}
+.blank15{clear:both;display:block;font-size:1px;overflow:hidden;height:15px;}
+.blank18{clear:both;display:block;font-size:1px;overflow:hidden;height:18px;}
+.blank20{clear:both;display:block;font-size:1px;overflow:hidden;height:20px;}
+.blank25{clear:both;display:block;font-size:1px;overflow:hidden;height:25px;}
+
+/*	  搜索结果页		*/
+.sr_contation{ width:980px; margin:0 auto;}
+.sr_left{width:756px; display:inline; float:left;}
+.sr_right{ width:208px; display:inline; float:right; padding:1px; border:1px solid #d0d0d0; }
+.selectarea{ border:1px solid #c7cacd; clear:both; padding:0px 1px;}
+
+/*   分类选择区域   */
+.selectarea  .selectareali{ background:url(http://images.vancl.com/search/dot.jpg) repeat-x center bottom;clear:both; overflow:hidden;zoom:1; line-height:20px;}
+.selectareaLeft{width:50px; display:inline; float:left;}
+.selectareaRight li a{ display:inline; float:left;} 
+.selectarea .selectareali .selectareaLeft span{ background:url(http://images.vancl.com/search/navgrey.jpg) no-repeat; color:#fff; width:36px; height:17px; line-height:17px; display:block; text-align:center; margin-left:10px;}
+.selectareali .selectareaRight ul{ _margin-left:-20px;}
+.selectareali .selectareaRight ul li{ display:block; float:left; margin-left:20px; height:24px; line-height:24px;}
+.selectareali .selectareaRight a { display:block; min-width:40px;}
+.selectareali .selectareaRight SPAN {COLOR: #999; HEIGHT: 20px;}
+.selectareali .selectareaRight a span{ color:#999; height:20px; }
+.selectareaRight{ display:inline; float:left; width:700px;}
+.selectareabtn{padding:8px 0px; text-align:center;}
+.selectarea #selectlihover{ padding:0px; margin:0;background-color:#ededed; clear:both; overflow:hidden;zoom:1; line-height:20px;}
+.selectarea #selectlihover .selectareaLeft span{ background:url(http://images.vancl.com/search/navred.jpg) no-repeat; }
+.selectarea .hovera a{ color:#a10000;}
+.kindsdel { display:inline; float:left; padding-top:7px;*padding-top:6px; _padding-top:6px; padding-left:5px;}
+
+/*    选择区域     */
+.selectkinds{ background-color:#ededed; overflow:hidden; zoom:1; padding:0px;}
+.colorarea{ display:inline; float:left; width:370px; margin-left:10px;}
+.sizearea{ display:inline; float:left; width:370px;}
+/*.propertyarea{ display:inline; float:left; width:250px; margin-left:50px;}*/
+
+/*    颜色区域     */
+.selectkinds h2{ color:#72727c;}
+.selectkinds h2 span{ display:inline; float:left; line-height:18px; margin-left:3px;_margin-left:6px;}
+
+.colorlist{ display:inline; float:left;}
+.colorlist li{ display:block; float:left; margin-left:3px; margin-bottom:8px;}
+.colorarea a{ display:block;}
+.colorarea a img{ border:1px solid #aeb1b4;}
+.colorarea a:hover img{ border:1px solid #a00000;}
+.colorarea .hovera img{ border:1px solid #a00000;}
+
+/*    尺码区域     */
+.sizelist1{ display:none; float:left;width:328px;}
+.sizelist1 li{ display:block; float:left; margin-left:3px; margin-bottom:8px;}
+.sizelist1 a{ background:url(http://images.vancl.com/search/bgh17.jpg) repeat-x; padding:0px 8px; height:17px; border:1px solid #aeb1b4; display:block; text-align:center; line-height:17px;_width:auto; _width:15px;min-width:15px;}
+.sizelist1 a:hover{ border:1px solid #a00000; color:#333;}
+
+.sizelist2{ display:inline; float:left;width:328px;}
+.sizelist2 li{ display:inline; float:left; margin-left:3px; margin-bottom:8px;}
+.sizelist2 a{ background:url(http://images.vancl.com/search/bgh17.jpg) repeat-x; padding:0px 2px; height:17px; border:1px solid #aeb1b4; display:block;text-align:center; line-height:17px; _width:auto; _width:15px; min-width:15px;}
+.sizelist2 a:hover{ border:1px solid #a00000; color:#333;}
+.sizelist2 .hovera a{ border:1px solid #a00000;color:#333;}
+
+/*		选项卡区域			*/
+.lib_Tab{ color:#262626;}
+#one2{ border-left:none;}
+/*菜单class*/
+.lib_tabborder{/*border:1px solid #95C9E1;*/}
+.lib_Menubox {height:30px;line-height:30px;position:relative;}
+.lib_Menubox ul{list-style:none; position:absolute;left:0; height:30px;text-align:center;}
+.lib_Menubox li{float:left;display:block;cursor:pointer;height:29px;line-height:29px; background:url(http://images.vancl.com/search/tabbg2.jpg) repeat-x; padding:0px 15px; font-size:14px;border-left:1px solid #cdcdcd;border-top:1px solid #cdcdcd;border-right:1px solid #cdcdcd;}
+.lib_Menubox li.hover{border-left:1px solid #cdcdcd;border-top:1px solid #cdcdcd;border-right:1px solid #cdcdcd;height:30px;line-height:30px; background:url(http://images.vancl.com/search/tabbg1.jpg) repeat-x;}
+.lib_Contentbox{clear:both;margin-top:0px; border-top:none; padding-right:20px;border-right:1px solid #cdcdcd; border-left:1px solid #cdcdcd; border-top:1px solid #cdcdcd; overflow:hidden; zoom:1;}
+.ssdzdiv{ display:inline; float:right; width:307px; *width:302px;}
+.qyssdzdiv{ display:inline; float:left;}
+.settingdiv{ display:inline; float:left;}
+.qyssdzdiv input{ background:url(http://images.vancl.com/search/qyssdzselectbg.gif) no-repeat; border:none; width:134px; height:21px; line-height:21px; padding:0px 20px;}
+.settingdiv input{ background:url(http://images.vancl.com/search/settingbtnbg.gif) no-repeat; border:none; width:37px; height:21px; line-height:21px;}
+.ssdzpagediv{ margin-left:25px;}
+.ssdzpagediv span{ display:inline; float:left; margin-left:12px; line-height:21px;}
+.ssdzpagediv span img{ display:block; margin-top:2px;}
+
+.lib_Tab .surebtn input{ border:none; background:url(http://images.vancl.com/search/qdbtn.jpg) no-repeat; width:38px; height:19px; line-height:19px; text-align:center;}
+.lib_Tab .tabcurdiv{ display:block; float:left; margin-left:16px; color:#999;}
+.lib_Tab .sjgmsgdiv{color:#999; display:block; float:right; line-height:19px; *line-height:22px;}
+.lib_Tab .sjgmsgtitle{ display:block; float:left; margin-left:10px;*margin-top:1px;}
+.sjgmsgdivlist{ width:338px; _width:320px; display:block; float:left;}
+.sjgmsgdivlist span{ margin-left:8px;display:block; float:left;}
+
+/*  面包屑导航    */
+.breadnav{ line-height:40px; clear:both;}
+.locationdiv{ display:inline; float:left;}
+.locationdiv span{ color:#b4b4b4;}
+.floatright{ display:inline; float:right; }
+.tsmsg{ display:inline; float:right; color:#b4b4b4;}
+.tsmsg span{ color:#a00000;padding:0px 2px;}
+.pagediv{ display:inline; float:right;}
+.pagediv span{ display:block; float:left; margin-left:12px;}
+.pagediv span img{ display:block; margin-top:11px;}
+
+/*  搜索区域  */
+.searchHead {
+	BORDER-BOTTOM: #b4b4b4 10px solid; BORDER-LEFT: #b4b4b4 1px solid; LINE-HEIGHT: 31px; WIDTH: 754px; BACKGROUND: url(http://images.vancl.com/search/bgh31.jpg) repeat-x; HEIGHT: 31px; CLEAR: both; BORDER-TOP: #b4b4b4 1px solid; BORDER-RIGHT: #b4b4b4 1px solid
+}
+.searchbar {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 5px
+}
+.searchbar .searchtitle {
+	DISPLAY: inline; FLOAT: left
+}
+.searchbar .searchselect {
+	POSITION: relative; MARGIN-TOP: 6px; DISPLAY: inline; FLOAT: left; _margin-top: 6px
+}
+.searchbar .searchselect SPAN {
+	BORDER-BOTTOM: #aeb1b4 1px solid;cursor:pointer; TEXT-ALIGN: right; BORDER-LEFT: #aeb1b4 1px solid; LINE-HEIGHT: 17px; PADDING-LEFT: 5px; PADDING-RIGHT: 32px; ZOOM: 1; DISPLAY: block; BACKGROUND: url(http://images.vancl.com/search/selectbg1.gif) #fff no-repeat right center; HEIGHT: 17px; CLEAR: both; OVERFLOW: hidden; BORDER-TOP: #aeb1b4 1px solid; BORDER-RIGHT: #aeb1b4 1px solid
+}
+.searchbar .searchselect UL {
+	Z-INDEX: 100; BORDER-BOTTOM: #aeb1b4 1px solid; POSITION: absolute; BORDER-LEFT: #aeb1b4 1px solid; BACKGROUND-COLOR: #fff; CLEAR: both; BORDER-TOP: #aeb1b4 1px solid; BORDER-RIGHT: #aeb1b4 1px solid
+}
+.searchbar .searchselect UL LI {
+	MIN-WIDTH: 70px; LINE-HEIGHT: 18px; WIDTH: auto; DISPLAY: block; HEIGHT: 18px; _width: 70px
+}
+.searchbar .searchselect UL LI A {
+	MIN-WIDTH: 85px; TEXT-INDENT: 5px; WIDTH: auto; DISPLAY: block; _width: 85px
+}
+.searchbar .searchselect UL LI A:hover {
+	BACKGROUND-COLOR: #a10000; COLOR: #fff
+}
+
+/* .orderimg{ display:inline; float:left; margin-left:10px; margin-top:6px; *margin-top:2px; margin-right:9px;}*/
+.orderimg {
+	MARGIN-TOP: 6px;cursor:pointer; *margin-top:2px;_margin-top:6px; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 9px
+}
+
+.sizeoption div{ display:inline; float:left; margin:0px 1px;}
+.sizeoption .sizeselect{ position:relative; margin-top:6px;*margin-top:0px;_margin-top:6px;}
+.sizeoption .sizeselect span{ background:url(http://images.vancl.com/search/selectbg1.gif) no-repeat center right;cursor:pointer; overflow:hidden; zoom:1; height:17px; border:1px solid #aeb1b4; padding-right:25px; padding-left:5px; background-color:#fff; line-height:17px; display:block;*display:inline; }
+.sizeoption .sizeselect ul{ border:1px solid #aeb1b4; background-color:#fff; position:absolute; *margin-top:18px; *margin-left:-47px; clear:both;}
+.sizeoption .sizeselect ul li{ height:18px; line-height:18px; display:block;width:auto; _width:42px; min-width:42px;*min-width:42px;}
+.sizeoption .sizeselect ul li a{width:auto; _width:42px; min-width:42px; display:block; text-indent:5px;}
+.sizeoption .sizeselect ul li a:hover{ background-color:#a10000; color:#fff;}
+
+.styleorder{ display:inline; float:left; margin-left:10px;}
+/*.styleorder .span01{ margin-top:9px; *margin-top:4px;display:inline; float:left; margin-left:5px;}*/
+.styleorder .span01 {MARGIN-TOP: 9px; *margin-top:4px; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 5px;}
+
+.styleorder .span02{ display:inline; float:left; margin:0px 2px;}
+
+
+
+/*产品列表*/
+
+/*    2010-12-22 王继伟  删除      .pruarea{ border-top:1px solid #dbd7d6;} */
+
+/*    2010-12-22 王继伟  .pruarea li{width:187px;height:302px;border:1px solid #dbd7d6;border-top:1px solid #fff;border-left:1px solid #fff;float:left;display:inline;text-align:center;overflow:hidden; }   */
+.pruarea li{width:172px;height:265px;margin-right:22px;float:left;display:inline;text-align:center;overflow:hidden; }
+
+/*.subKindList li img{margin-top:20px;}*/
+
+/*    2010-12-22 王继伟  删除  li.borCdbd7d6{border-left:1px solid #dbd7d6; } */
+
+/*    2010-12-22 王继伟  .pruarea li p{padding:0 22px;text-align:left;line-height:18px; margin-top:15px;}    */
+.pruarea li p{text-align:left;line-height:18px; margin-top:15px;height:40px;overflow:hidden;}
+
+.pruarea li div{text-align:left; }
+.Mprice, .Pprice{margin-right:10px;color:#9f9f9f;}
+.Sprice, .Pprice{color:#a10000;}
+.Sprice{font-weight:bold;}
+.Mprice strong{font-weight:normal;text-decoration:line-through;}
+
+/*    2010-12-22 王继伟  删除  #hoverLi{border:1px solid #a10000; }  */
+/*    2010-12-22 王继伟  .pruarea li .pic {height:205px;margin-bottom:9px;position:relative;text-align:center;width:150px;margin-left:19px;*margin-left:0px;margin-top:20px;}    */
+.pruarea li .pic {position:relative;text-align:center;width:172px;height:172px;overflow:hidden;}
+
+/*    2010-12-22 王继伟 新增加样式    */
+.pruarea li .pic img{border:1px solid #dbd7d6;}
+.pruarea li .pic a:hover img{border:1px solid #a10000;}
+
+/*列表方式*/
+.pruarea1{border-bottom:1px solid #c9c9c9;}
+/*    2010-12-22 王继伟  .pru1li{ overflow:hidden;zoom:1; padding:4px 8px 8px 4px;border-top:1px solid #c9c9c9;border-right:1px solid #c9c9c9;border-left:1px solid #c9c9c9;border-bottom:1px solid #fff;}    */
+.pru1li{ overflow:hidden;zoom:1; padding:4px 8px 4px 4px;border-top:1px solid #c9c9c9;border-right:1px solid #c9c9c9;border-left:1px solid #c9c9c9;border-bottom:1px solid #fff;}
+/*    2010-12-22 王继伟  .pruarea1 .pic{height:205px;width:150px; display:inline; float:left;position:relative;}    */
+.pruarea1 .pic{height:170px;width:170px; display:inline; float:left;position:relative;}
+
+.pru1detail{ display:inline; float:left;padding-left:22px;}
+.pru1detail h2{ line-height:38px; font-size:14px; color:#333;}
+.divProp p{ line-height:26px; color:#999;clear:both}
+.divProp p span{ color:#a10000; display:inline; float:left; }
+/* 2010-12-29 翟凡 width330->310*/
+.divProp .d1xjdetail{line-height:32px; color:#999; width:310px;color:#999; padding-top:5px; line-height:16px;}
+/*    2010-12-22 王继伟  .pru1price{ display:inline; float:right; width:132px; background-color:#f0f0f0; padding:14px 12px; color:#999;}    */
+.pru1price{ display:inline; float:right; width:132px; background-color:#f0f0f0; padding:14px 12px 11px 12px; color:#999;}
+/*    2010-12-22 王继伟  .pru1pricearea{ height:72px;}    */
+.pru1pricearea{ height:55px;}
+.fontsj{ color:#a10000; font-weight:bold;}
+/*    2010-12-22 王继伟  .fontyj{ line-height:32px;}    */
+.fontyj{ line-height:24px;}
+/*    2010-12-22 王继伟 .starImg{height:28px; padding-top:12px; clear:both;}    */
+.starImg{height:20px; padding-top:5px; clear:both;}
+
+.starImg img{ margin-right:2px;}
+.pruarea1 DL {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 23px; MARGIN: 0px; PADDING-TOP: 6px; width:350px;}
+.pruarea1 DL DD {PADDING-RIGHT: 10px; PADDING-LEFT: 0px; float:left; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 22px; PADDING-TOP: 0px; HEIGHT: 26px}
+.pruarea1 .currentColor2 {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 26px; PADDING-TOP: 0px}
+.pruarea1 .currentColor IMG {BORDER-RIGHT: #a5afc3 2px solid; PADDING-RIGHT: 1px; BORDER-TOP: #a5afc3 2px solid; MARGIN-TOP: 0px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #a5afc3 2px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #a5afc3 2px solid}
+.pruarea1 .currentColor2 IMG {BORDER-RIGHT: #a5afc3 2px solid; PADDING-RIGHT: 1px; BORDER-TOP: #a5afc3 2px solid; MARGIN-TOP: 0px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #a5afc3 2px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #a5afc3 2px solid}
+.pruarea1 .otherColor2 {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 26px; PADDING-TOP: 0px}
+.pruarea1 .otherColor IMG {BORDER-RIGHT: #c8c8c8 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #c8c8c8 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 1px 0px 0px 1px; BORDER-LEFT: #c8c8c8 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #c8c8c8 1px solid}
+.pruarea1 .otherColor2 IMG {BORDER-RIGHT: #c8c8c8 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #c8c8c8 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 1px 0px 0px 1px; BORDER-LEFT: #c8c8c8 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #c8c8c8 1px solid}
+
+
+
+/*列表方式加色块*/
+/*
+.setcolor{ line-height:24px; width:400px;}
+.setcolor span{ color:#a10000; display:inline; float:left;}
+.setcolor a{ display:inline; float:left; margin-left:5px; border:1px solid #cecece; margin-top:2px;}
+.setcolor a img{ width:20px; height:20px;}
+.setcolor a:hover{ display:inline; float:left; margin-left:5px; border:1px solid #a10000;}
+#colorimghover{ border:1px solid #a10000;}
+.hscolorlist{ display:inline; float:left; width:350px;}
+*/
+
+/*图文方式*/
+.pruarea2{PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; margin: 0px; width: 754px; _width:754PX;/* PADDING-TOP: 25px*/}
+/*    2010-12-22 王继伟  .pruarea2 ul {PADDING-RIGHT: 0px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px;  OVERFLOW: hidden; WIDTH: 754px; _width:754px; PADDING-TOP: 0px; zoom:1;}    */
+.pruarea2 ul {OVERFLOW: hidden; WIDTH: 754px;zoom:1;}
+
+/*    2010-12-22 王继伟  .pruarea2 ul li { display:inline;float:left; padding:0px 16px; _padding:0px 15px; WIDTH: 154px; LIST-STYLE-TYPE: none; overflow:hidden; zoom:1; margin-top:2px;}    */
+.pruarea2 ul li { display:inline;float:left;WIDTH: 172px; LIST-STYLE-TYPE: none; overflow:hidden; zoom:1; margin:2px 22px 0 0;}
+
+.pruarea2 ul li span {float:left; COLOR: #a10000}
+
+/*    2010-12-22 王继伟   .pruarea2 ul li .pic {position:relative;PADDING-RIGHT: 0px; PADDING-LEFT: 2px; MARGIN-BOTTOM: 9px; PADDING-BOTTOM: 0px; WIDTH: 150px; PADDING-TOP: 0px; HEIGHT: 205px; TEXT-ALIGN: center}    */
+.pruarea2 ul li .pic {position:relative;MARGIN-BOTTOM: 9px;WIDTH: 172px;HEIGHT: 172px; TEXT-ALIGN: center}
+/*    2010-12-22 王继伟  新增加样式    */
+.pruarea2 ul li .pic img{border:1px solid #c9c9c9;}
+.pruarea2 ul li .pic a:hover img{border:1px solid #a10000;}
+/*    2010-12-22 王继伟   .pruarea2 ul li .productName {MARGIN: 13px 0px 0px; OVERFLOW: hidden; WIDTH: 150px}    */
+.pruarea2 ul li .productName {MARGIN: 13px 0px 0px; OVERFLOW: hidden; WIDTH: 150px;height:35px;overflow:hidden;}
+
+.pruarea2 ul li .productName A {LINE-HEIGHT: 19px}
+.pruarea2 ul li .titleTopHack {OVERFLOW: hidden; HEIGHT: 3px}
+.pruarea2 ul li .price {PADDING-RIGHT: 0px; MARGIN-TOP: 9px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 150px; PADDING-TOP: 0px; TEXT-ALIGN: left;}
+.pruarea2 ul li .hack {WIDTH: 20px; HEIGHT: 30px}
+.pruarea2 ul li .price STRONG {FONT-WEIGHT: normal; COLOR: #a10000}
+.pruarea2 ul li .price .hs {COLOR: #999999; MARGIN-RIGHT: 5px}
+.pruarea2 ul li DL {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 23px; MARGIN: 0px; PADDING-TOP: 6px}
+.pruarea2 ul li DL DD {PADDING-RIGHT: 10px; PADDING-LEFT: 0px; float:left; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 22px; PADDING-TOP: 0px; HEIGHT: 26px}
+.pruarea2 .currentColor2 {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 26px; PADDING-TOP: 0px}
+.pruarea2 .currentColor IMG {BORDER-RIGHT: #a5afc3 2px solid; PADDING-RIGHT: 1px; BORDER-TOP: #a5afc3 2px solid; MARGIN-TOP: 0px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #a5afc3 2px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #a5afc3 2px solid}
+.pruarea2 .currentColor2 IMG {BORDER-RIGHT: #a5afc3 2px solid; PADDING-RIGHT: 1px; BORDER-TOP: #a5afc3 2px solid; MARGIN-TOP: 0px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #a5afc3 2px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #a5afc3 2px solid}
+.pruarea2 .otherColor2 {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 26px; PADDING-TOP: 0px}
+.pruarea2 .otherColor IMG {BORDER-RIGHT: #c8c8c8 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #c8c8c8 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 1px 0px 0px 1px; BORDER-LEFT: #c8c8c8 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #c8c8c8 1px solid}
+.pruarea2 .otherColor2 IMG {BORDER-RIGHT: #c8c8c8 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #c8c8c8 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 1px 0px 0px 1px; BORDER-LEFT: #c8c8c8 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #c8c8c8 1px solid}
+/*2010-12-22 Added by 翟凡 */
+.pruarea2 ul li .price .sc{font-weight:bold;}
+
+/* 新品 */
+.newview {
+background:url("http://images.vancl.com/NewVancl/Productlist/icon/icon-new.png") no-repeat scroll 0 0 transparent;
+color:#FFFFFF;
+font-family:"arial";
+font-size:16px;
+height:23px;
+left:0;
+padding:0;
+position:absolute;
+text-align:center;
+top:0;
+width:40px;
+z-index:2;
+_background:none;/*IE6*/
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="http://images.vancl.com/NewVancl/Productlist/icon/icon-new.png");/*IE6*/
+}
+
+/* 特惠 */
+.teshui {
+background:url("http://images.vancl.com/NewVancl/Productlist/icon/icon-off.png") no-repeat scroll 0 0 transparent;
+bottom:0;
+color:#FFFFFF;
+font-family:"arial";
+font-size:16px;
+height:25px;
+padding:18px 0 2px 6px;
+position:absolute;
+right:0;
+text-align:center;
+width:40px;
+text-indent:8px;
+_background:none;/*IE6*/
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="http://images.vancl.com/NewVancl/Productlist/icon/icon-off.png");/*IE6*/
+}
+.jifen
+{
+	font-size:16px;
+	text-align:center;
+	position:absolute;right:0;bottom:0;width:40px;height:25px;padding:18px 0 2px 6px;color:#FFF;font-family:"arial";
+	text-indent:8px;
+	background:url(http://images.vancl.com/NewVancl/Productlist/icon/point.png);
+	background-repeat:no-repeat;
+	_background:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src="http://images.vancl.com/NewVancl/Productlist/icon/point.png");
+}
+.qianggou
+{
+	font-size:16px;
+	text-align:center;
+	position:absolute;right:0;bottom:0;width:40px;height:25px;padding:18px 0 2px 5px;color:#FFF;font-family:"arial";
+	text-indent:8px;
+	background:url(http://images.vancl.com/NewVancl/Productlist/icon/qianggou.png);
+	background-repeat:no-repeat;
+	_background:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src="http://images.vancl.com/NewVancl/Productlist/icon/qianggou.png");
+}
+
+.duanma
+{
+	font-size:16px;
+	text-align:center;
+	position:absolute;left:110px;top:182px;width:44px;height:23px;padding:0;color:#FFF;font-family:"arial";
+	background:url(http://images.vancl.com/NewVancl/Productlist/icon/icon-duan.png);
+	background-repeat:no-repeat;
+	_background:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src="http://images.vancl.com/NewVancl/Productlist/icon/icon-duan.png");
+	z-index:2;
+}
+ .qingcang
+{
+	font-size:16px;
+	text-align:center;
+	position:absolute;right:0;bottom:0;width:40px;height:25px;padding:18px 0 2px 6px;color:#FFF;font-family:"arial";
+	text-indent:8px;
+	background:url(http://images.vancl.com/NewVancl/Productlist/icon/clear.png);
+	background-repeat:no-repeat;
+	_background:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src="http://images.vancl.com/NewVancl/Productlist/icon/clear.png");
+}
+
+/*产品分页*/
+.searchPage{ display:inline; float:right;}
+.searchPage span{ display:inline; float:left;}
+.searchPage ul{margin-right:5px; display:inline; float:left;}
+.searchPage span img{ display:block;}
+.searchPage li{margin-left:5px; text-align:center;  display:inline; float:left;}
+.searchPage li a{background:url(http://images.vancl.com/search/pagebg1.jpg) no-repeat;height:17px;line-height:17px;width:25px; display:block;}
+.searchPage li strong{color:#a10000;}
+.searchPage .currentpage{ background:url(http://images.vancl.com/search/pagebg2.gif) no-repeat;height:17px;line-height:17px;width:25px; color:#fff; font-weight:bold;}
+
+/*搜索区域*/
+.searchdiv{ text-align:center;}
+.searchdiv div{ margin:0 auto; width:410px;}
+.searchinput{ display:inline; float:left;}
+.searchbtn{ display:inline; float:left;}
+.searchinput input{ border:none; background:url(http://images.vancl.com/search/textbg.jpg) no-repeat;height:26px;
+width:335px; line-height:26px; padding-left:5px;}
+.searchbtn input{ background:url(http://images.vancl.com/search/searchbtnbg.jpg) no-repeat center center; width:70px; height:26px; border:none; *margin-top:1px; cursor:pointer;}
+.sjgmsg{ margin:0 auto; width:410px;color:#999;}
+
+
+/*右侧*/
+.wy_con11Left{ width:208px; display:inline; float:left;}
+.wy_con11Left H2 {line-height: 22px; background-color: #565662; text-indent: 10px; width:208px; height:22px; color:#fff;font-size:12px; font-weight:bold;} 
+.wytoplist {padding:10px 0px;} 
+.wytoplist LI { padding:10px 14px 10px 10px;display:block;height: 69px; OVERFLOW: hidden;} 
+.wytoplist li.hiddenborder{ background:none;}
+.wytopdiv{ display:inline; float:left; width:14px; }
+.wytopid{ display:block;float:left;width:14px; height:14px; background-color:#9c1f0c; color:#fff; display:block; float:left; text-align:center; line-height:12px;}
+.wyimg{ display:inline; float:left;}
+.wytitle {display:block; float:left; margin-left: 8px;} 
+.wytitle1 { width:106px;} 
+.wytitle .wyshoujia {text-align:left; line-height:25px; color:#a10000; font-weight:bold;} 
+.hotpl{ color:#999; text-align:right; width:106px;} 
+
+/*评论*/
+.lovespllist{ font-size:12px;overflow:hidden; zoom:1;}
+.lovespllist ul{ width:100%;}
+.lovespllist li{background:url(http://images.vancl.com/search/dot.jpg) repeat-x center bottom; width:188px; padding:7px 12px;}
+.plmsg{color:#666; line-height:18px;}
+.pltime{color:#999; line-height:18px;}
+.lovespllist .bgnone{ background:none;}
+
+.searchbar .searchselect .sjnew{ width:100px; text-align:left;}
+.searchbar .searchselect .sjoption {Z-INDEX: 100; POSITION: absolute; WIDTH: 125px;}
+
+.searchbar .searchselect .sjoption li{ width:125px;}
+.searchbar .searchselect .sjoption a{ width:125px;}
+
+
+.noresult{ border:1px solid #dbd7d6; text-align:center; font-size:12px; padding:30px 0px;color:#999;}
+.noresult p { font-size:12px; line-height:25px;}
+.rb {color:#a10000;}
+.noresult a:link{ color:#a10000; }
+.noresult a:visited{ color:#a10000;}
+.noresult a:hover{color:#a10000; text-decoration:underline;}
+.noresult a:active{color:#a10000;}
+.pru1detail .productName a{ line-height:32px;}
+
+.pointimage{ text-align:center;margin-left:10px;}
+
+
+

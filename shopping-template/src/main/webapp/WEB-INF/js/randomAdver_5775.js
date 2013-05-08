@@ -1,0 +1,11 @@
+﻿imglist=new RandomimgPlayer("class='track' name='h-a-01'");
+imglist.Add("http://images.vancl.com/Others/2010/10/19/but_home_acc_l_101019.jpg",0,"http://www.vancl.com/zhuanti/accessories/wj_20101018.htm");
+imglist.Add("http://images.vancl.com/Others/2010/10/30/but_home_acc_l_101030.jpg",0,"http://www.vancl.com/zhuanti/accessories/mxm_20101025.htm");
+imglist.Add("http://images.vancl.com/Others/2011/1/24/advacces_left_110124_01.jpg",100,"http://www.vancl.com/zhuanti/accessories/yd_20101216.htm");
+imglist.Add("http://images.vancl.com/Others/2010/6/8/but_home_acc_l_100608.jpg",0,"http://www.vancl.com/zhuanti/pd_20100426.htm");
+imglist.Add("http://images.vancl.com/Others/2010/6/12/but_home_acc_l_100613.jpg",0,"http://www.vancl.com/zhuanti/dcnvm_20100608.htm");
+imglist.Add("http://images.vancl.com/Others/2010/6/22/but_home_acc_l_100622.jpg",0,"http://www.vancl.com/CategoryList-1765-1--1/MaoZi.html");
+imglist.Add("http://images.vancl.com/Others/2010/7/19/but_home_acc_l_100625-3.jpg",0,"http://www.vancl.com/zhuanti/bqm_20100625.htm");
+imglist.Add("http://images.vancl.com/Others/2010/7/6/but_home_acc_l_100704.jpg",0,"http://www.vancl.com/zhuanti/pd_20100706.htm");
+imglist.Add("http://images.vancl.com/Others/2010/8/10/but_home_acc_l_100810.jpg",0,"http://www.vancl.com/zhuanti/pd_20100806.htm");
+$("#randomadver_ornament_1").html(imglist.GetFirstImgHTML("class='track' name='h-a-01'"));

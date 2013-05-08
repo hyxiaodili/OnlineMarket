@@ -1,0 +1,12 @@
+﻿imglist=new RandomimgPlayer("class='track' name='h-a-02'");
+imglist.Add("http://images.vancl.com/Others/2010/11/8/but_home_acc_r_101108.jpg",0,"http://www.vancl.com/zhuanti/accessories/pd_20101108.htm");
+imglist.Add("http://images.vancl.com/Others/2010/12/3/but_home_acc_r_101203.jpg",0,"http://www.vancl.com/zhuanti/accessories/lfmfyqgcw_20101116.htm");
+imglist.Add("http://images.vancl.com/Others/2010/11/30/but_home_shoe_l_101130.jpg",0,"http://www.vancl.com/zhuanti/accessories/ssnsyd_20101125.htm");
+imglist.Add("http://images.vancl.com/Others/2010/6/1/but_home_shoe_l_100601.jpg",0,"http://www.vancl.com/zhuanti/zdyd_20100505.htm");
+imglist.Add("http://images.vancl.com/Others/2011/1/24/advacces_left_110124_02.jpg",100,"http://www.vancl.com/zhuanti/accessories/wj_20101129.htm");
+imglist.Add("http://images.vancl.com/Others/2010/7/2/but_home_shoe_l_100702.jpg",0,"http://www.vancl.com/zhuanti/zsyd_20100701.htm");
+imglist.Add("http://images.vancl.com/Others/2010/7/12/but_home_shoe_l_100706-6.jpg",0,"http://www.vancl.com/zhuanti/tyj_20100706.htm");
+imglist.Add("http://images.vancl.com/Others/2010/7/7/but_home_shoe_l_100707.jpg",0,"http://www.vancl.com/zhuanti/dnb_20100707.htm");
+imglist.Add("http://images.vancl.com/Others/2010/8/11/but_home_shoe_l_100811.jpg",0,"http://www.vancl.com/zhuanti/accessories/ycb_20100811.htm");
+imglist.Add("http://images.vancl.com/Others/2010/9/21/xd10092106.jpg",0,"http://www.vancl.com/zhuanti/accessories/peishi_20100921.htm");
+$("#randomadver_ornament_2").html(imglist.GetFirstImgHTML("class='track' name='h-a-02'"));

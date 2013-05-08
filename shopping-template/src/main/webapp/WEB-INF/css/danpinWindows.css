@@ -1,0 +1,86 @@
+@charset "utf-8";
+/*  全局样式  */
+html{color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,textarea,p,th,td{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+fieldset,img{border:0;}
+li{list-style:none;}
+em,strong,th{font-style:normal;font-weight:normal;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select {*font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+/*  body  */
+body{font-size:12px;font-family:"宋体";color:#333;}
+a:link,a:visited{color:#333;text-decoration:none;}
+a:hover{color:#a10000;text-decoration:none;}
+/* <span class="blank+数值"></span> */
+.blank0{clear:both;display:block;font-size:1px;visibility:hidden;height:0;line-height:0;}
+.blank5{clear:both;display:block;font-size:1px;overflow:hidden;height:5px;}
+.blank8{clear:both;display:block;font-size:1px;overflow:hidden;height:8px;}
+.blank10{clear:both;display:block;font-size:1px;overflow:hidden;height:10px;}
+.blank12{clear:both;display:block;font-size:1px;overflow:hidden;height:12px;}
+.blank15{clear:both;display:block;font-size:1px;overflow:hidden;height:15px;}
+.blank20{clear:both;display:block;font-size:1px;overflow:hidden;height:20px;}
+.blank25{clear:both;display:block;font-size:1px;overflow:hidden;height:25px;}
+/*   回答弹出框   */
+#answerBox,#askBox,#commentBox{width:779px;margin:0 auto;}
+.Ahead{width:779px;height:8px;background:url(http://images.vancl.com/Others/2010/9/9/bot.gif) no-repeat;overflow:hidden;}
+.Afoot{width:779px;height:8px;background:url(http://images.vancl.com/Others/2010/9/9/bob.gif) no-repeat;overflow:hidden;}
+.ACon{width:771px;border-left:4px solid #f1f1f1;border-right:4px solid #f1f1f1;  }
+.wen{height:28px;line-height:28px;font-size:14px;color:#999;}
+.wen img,.wen span{float:left;display:inline ; }
+.wen img{margin:6px 5px 0 10px;}
+.userWen{width:769px;height:32px;line-height:32px;color:#999;margin:0 auto;background:#f1f1f1; }
+.userWen h2{margin-left:10px;float:left;display:inline; }
+.userWen h3{margin-right:70px;color:#999;float:right;display:inline;}
+.answerArea{width:742px;margin:0 auto;}
+.answerCon{line-height:22px;padding:8px 20px;color:#999;border-bottom:1px dotted #999;}
+.btnCom{width:68px;height:21px;line-height:21px;font-size:12px;text-align:center; color:#fff;background:url(http://images.vancl.com/Others/2010/9/9/btn.gif) no-repeat;border:none;cursor:pointer;}
+.meTiwen{margin-right:64px;float:right;display:inline;}
+.huidaHead{height:28px;line-height:28px;text-indent:4px;color:#999;border-bottom:1px solid #a10000;}
+.adminAnswerArea{width:616px;margin:0 auto;color:#999;}
+.adminAnswerArea h2{color:#a10000;float:left;display:inline; }
+.adminAnswerArea h3{float:right;display:inline;}
+.FTextarea{width:614px;height:195px;margin:0 auto;border:1px solid #7f9db9; }
+.tiwen{float:right;display:inline;}
+/*   提问   */
+/*   2010-9-9 15:39   */
+.askHead{height:34px;background:url(http://images.vancl.com/Others/2010/9/9/headBg.gif) no-repeat 0 100%;}
+.askHead h2{height:32px;line-height:32px;padding-right:40px;font-size:14px;font-weight:bold;color:#999;border-bottom:2px solid #a10000;float:left;display:inline; }
+.askHead h3{height:32px;line-height:32px;padding-right:16px;color:#999;float:right;display:inline; }
+
+.askHead h3 strong{color:#a10000;}
+.askHead img,.askHead span{float:left;display:inline; }
+.askHead img{margin:7px 5px 0 10px;}
+.FTextAreaLeft{width:150px;line-height:20px;color:#999;text-align:right;float:left;display:inline; }
+.FTextAreaRight{width:621px;color:#999;float:left;display:inline; }
+.askFText{width:515px;height:18px;line-height:18px;border:1px solid #7f9db9; }
+.askFTextarea{width:515px;height:178px;border:1px solid #7f9db9; }
+.btnTijiao{margin-right:106px;float:right;display:inline;}
+/*   评论   */
+.radioArea{width:771px;background:#f1f1f1; }
+.radioAreaLeft,.radioAreaRight{width:385px;color:#999;float:left;display:inline;  }
+.radioAreaLeft strong,.radioAreaLeft input,.radioAreaLeft span{float:left;display:inline; }
+.radioAreaLeft strong,.radioAreaRight strong{color:#a10000;}
+.FormAreaLeft{width:424px;margin-left:25px;float:left;display:inline; }
+.FormAreaLeft h2{font-weight:bold;color:#999;}
+.FormAreaLeft p{line-height:21px;color:#999;}
+.comFText{width:422px;height:18px;line-height:18px;border:1px solid #7f9db9; }
+.comFTextarea{width:422px;height:222px;border:1px solid #7f9db9; }
+.btnFabiao{float:right;display:inline;}
+.FormAreaRight{width:260px;margin-left:30px;color:#999;border:1px solid #e4e4e4; float:left;display:inline; }
+.FormAreaRight h2{height:30px;line-height:30px;text-indent:8px;color:#fff;background:#a10000; }
+.FormAreaRight p{padding:8px 8px 2px 8px;}
+.FormAreaRight li{text-indent:1em;line-height:22px;padding:0 8px 0 8px;background:url(http://images.vancl.com/Others/2010/9/9/tag.gif) no-repeat 8px 6px;}
+.selRadio{width:100%;height:30px;line-height:30px;margin-left:10px;}
+.selRadio span{padding:0 4px;}
+.selRadio input{margin-left:10px;margin-top:8px;*margin-top:3px;}
+
+.col1of7{width:44px;color:#a10000;text-align:right;}
+.col2of7{width:75px;}
+.col3of7{width:54px;}
+.col4of7{width:62px;}
+
+.radioAreaLeft table{margin-top:10px;}
+.radioAreaLeft td{height:30px;line-height:30px;}
+.radioAreaLeft td input{margin-right:4px;margin-top:7px;*margin-top:3px;}

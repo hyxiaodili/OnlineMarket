@@ -1,0 +1,18 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.channelHead a{ background:url(http://images.vancl.com/channel/common/backgroundImg.png) no-repeat 0px -620px; height:28px; display:block;}
+
+.mainNav{width:978px;height:45px;border:1px solid #bbb;}
+.mainNav li{text-align:center;font:bold 14px/45px "宋体";border-right:1px solid #bbb;float:left;display:inline;}
+.mainNav li a:link,.mainNav li a:visited{height:45px;display:block;color:#c85200;background:#ffdfb9;}
+.mainNav li a:hover{color:#280d00;background:#e8e8e8;}
+
+.leftHead{height:32px;color:#ffa448;font:bold 14px/32px "宋体";text-indent:25px;border-bottom:2px solid #ffa448;}
+
+.centerSelMenu{height:33px;border-bottom:2px solid #ffa448;}
+.centerSelMenu li{width:122px;height:33px;line-height:33px;margin-right:2px;text-align:center;float:left;display:inline;color:#ffa448;}
+.centerSelMenu li.hover{width:120px;height:32px;line-height:32px;border:1px solid #ffa448;border-bottom:none;cursor:pointer; color:#fff;background:#ffa448;}
+
+.hotArea h4{height:32px;font:bold 14px/32px "宋体";text-indent:25px;color:#ffa448;border-bottom:2px solid #ffa448;}
+
+li.top123 {background-color:#A10000;}
