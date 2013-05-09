@@ -101,11 +101,6 @@
 				<artifactId>spring-expression</artifactId>
 				<version>${springFrameworkVersion}</version>
 			</dependency>
-			<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-test</artifactId>
-				<version>${springFrameworkVersion}</version>
-			</dependency>
 			
 
 			<dependency>
@@ -167,11 +162,6 @@
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>jcl-over-slf4j</artifactId>
-				<version>${slf4j.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-log4j12</artifactId>
 				<version>${slf4j.version}</version>
 			</dependency>
 			<dependency>
