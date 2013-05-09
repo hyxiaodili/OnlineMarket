@@ -18,7 +18,6 @@
 		<taglibs.version>1.1.2</taglibs.version>
 		<logback.version>1.0.1</logback.version>
 		<slf4j.version>1.6.4</slf4j.version>
-		<shoppingTemplateVersion>1.0.0-SNAPSHOT</shoppingTemplateVersion>
 		<validator.version>1.3.1</validator.version>
 		<apache-commons-lang.version>2.6</apache-commons-lang.version>
 		<javassist.version>3.10.0.GA</javassist.version>
@@ -34,6 +33,9 @@
 		<janino.version>2.6.1</janino.version>
 		<junit.version>4.8.2</junit.version>
 		<jmock.version>2.5.1</jmock.version>		
+		<aspectj.version>1.5.4</aspectj.version>
+		<ibatis.version>2.3.4.726</ibatis.version>
+		<mysql.version>5.1.9</mysql.version>
 	</properties>
 
 	<dependencies>
@@ -127,23 +129,17 @@
 				<version>${springFrameworkVersion}</version>
 			<scope>test</scope>
 		</dependency>	
-		<!-- juint -->
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<scope>test</scope>
-		</dependency>
 		<!-- ibatis -->
 		<dependency>  
             <groupId>org.apache.ibatis</groupId>  
             <artifactId>ibatis-sqlmap</artifactId>  
-            <version>2.3.4.726</version>  
+            <version>${ibatis.version}</version>  
         </dependency>  
 		<!-- mysql -->
 		<dependency>  
             <groupId>mysql</groupId>  
             <artifactId>mysql-connector-java</artifactId>  
-            <version>5.1.9</version>  
+            <version>${mysql.version}</version>  
         </dependency>
         
         <dependency>  
@@ -194,34 +190,16 @@
 				<version>${logback.version}</version>
 			</dependency>
 		
-		<dependency>
-		  <groupId>org.codehaus.janino</groupId>
-		  <artifactId>janino</artifactId>
-		</dependency>        
-       		<!-- Servlet / JSP -->
-		  <dependency>
-				<groupId>javax.servlet</groupId>
-				<artifactId>javax.servlet-api</artifactId>
-				<scope>provided</scope>
-		    </dependency>
-			<dependency>
-				<groupId>javax.servlet</groupId>
-				<artifactId>jstl</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>taglibs</groupId>
-				<artifactId>standard</artifactId>
-			</dependency>        
 		 
 		 <!-- shopping -->
-		 <dependency>
+		  <!--<dependency>
 		 		<groupId>com.hy.it.shopping</groupId>
 				  <artifactId>shopping-template</artifactId>
 				  <version>${shoppingTemplateVersion}</version>
 				<type>war</type>
 				<scope>compile</scope>
 		 </dependency>
-		 <!--  <dependency>
+		  <dependency>
 		   <groupId>com.hy.it.shopping</groupId>
  			 <artifactId>shopping-dao</artifactId>
 		 </dependency>-->
@@ -347,13 +325,13 @@
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjweaver</artifactId>
-			<version>1.5.4</version>
+			<version>${aspectj.version}</version>
 			</dependency>
 		 
 		 <dependency>
 				<groupId>aspectj</groupId>
 				<artifactId>aspectjrt</artifactId>
-				<version>1.5.4</version>
+				<version>${aspectj.version}</version>
 		</dependency>
 	</dependencies>
 	
@@ -377,12 +355,6 @@
 				<configuration>
 					<warName>CounterWebApp</warName>
 					<outputDirectory>D:\ftp_share\software\apache-tomcat-6.0.32\apache-tomcat-6.0.32\webapps</outputDirectory>
-					<overlays>
-						<overlay>
-							<groupId>com.hy.it.shopping</groupId>
-							<artifactId>shopping-template</artifactId>
-						</overlay>
-					</overlays>
 				</configuration>
 			</plugin>
 			
